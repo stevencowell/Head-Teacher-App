@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WWHS Head Teacher Super App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="branding">
+        <h1>WWHS Head Teacher Super App</h1>
+        <p class="subtitle">Start the day with fast access to every critical TAS resource.</p>
+      </div>
+      <div class="search-controls">
+        <label class="search-field">
+          <span class="sr-only">Search resources</span>
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Search by title, description or link label..."
+            autocomplete="off"
+          />
+          <button id="clear-search" class="ghost" aria-label="Clear search">×</button>
+        </label>
+        <div class="filter-row">
+          <label for="status-filter">Updated year</label>
+          <select id="status-filter">
+            <option value="all">All years</option>
+          </select>
+          <label for="category-filter">Category</label>
+          <select id="category-filter">
+            <option value="all">All categories</option>
+          </select>
+          <label class="toggle">
+            <input type="checkbox" id="pinned-toggle" />
+            <span>Show pinned only</span>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main class="app-layout">
+      <aside class="sidebar" aria-label="Quick category navigation">
+        <h2>Categories</h2>
+        <nav id="category-nav"></nav>
+        <section class="insights">
+          <h3>Live insights</h3>
+          <dl id="insights"></dl>
+        </section>
+      </aside>
+      <section class="content" id="content" aria-live="polite"></section>
+    </main>
+
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">↑</button>
+
+    <template id="category-summary-template">
+      <article class="category-card">
+        <header>
+          <h2></h2>
+          <span class="meta"></span>
+        </header>
+        <p class="description"></p>
+        <div class="links"></div>
+      </article>
+    </template>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
