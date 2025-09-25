@@ -20,6 +20,13 @@ const elements = {
   content: document.getElementById('content'),
   insights: document.getElementById('insights'),
   scrollTop: document.getElementById('scroll-top'),
+  metrics: {
+    totalSubjects: document.getElementById('metric-total-subjects'),
+    allocated: document.getElementById('metric-allocated'),
+    pinned: document.getElementById('metric-pinned'),
+    progress: document.getElementById('metric-progress'),
+    progressPath: document.getElementById('metric-progress-path'),
+  },
 };
 
 let navObserver;
@@ -182,6 +189,7 @@ function render() {
     empty.append(title, message);
     elements.content.append(empty);
     updateInsights();
+    updateCommandCentreStats();
     disconnectObserver();
     return;
   }
@@ -282,6 +290,7 @@ function render() {
   });
 
   updateInsights();
+  updateCommandCentreStats();
   setupObserver();
 }
 
@@ -496,5 +505,44 @@ function updateInsights() {
     dd.textContent = value;
     elements.insights.append(dt, dd);
   });
+}
+
+function updateCommandCentreStats() {
+  if (!elements.metrics) return;
+  const totals = computeGlobalTotals();
+  if (elements.metrics.totalSubjects) {
+    elements.metrics.totalSubjects.textContent = totals.totalSections;
+  }
+  if (elements.metrics.allocated) {
+    elements.metrics.allocated.textContent = totals.allocatedSections;
+  }
+  if (elements.metrics.pinned) {
+    elements.metrics.pinned.textContent = totals.pinnedCount;
+  }
+  const progressValue = Math.round(totals.allocationProgress);
+  const safeProgress = Math.max(0, Math.min(100, progressValue));
+  if (elements.metrics.progress) {
+    elements.metrics.progress.textContent = `${safeProgress}%`;
+  }
+  const remainder = Math.max(0, 100 - safeProgress);
+  if (elements.metrics.progressPath) {
+    elements.metrics.progressPath.setAttribute('stroke-dasharray', `${safeProgress}, ${remainder}`);
+  }
+}
+
+function computeGlobalTotals() {
+  let totalSections = 0;
+  let allocatedSections = 0;
+  state.categories.forEach((category) => {
+    category.sections.forEach((section) => {
+      totalSections += 1;
+      if (section.links.length) {
+        allocatedSections += 1;
+      }
+    });
+  });
+  const pinnedCount = state.pinned.size;
+  const allocationProgress = totalSections ? (allocatedSections / totalSections) * 100 : 0;
+  return { totalSections, allocatedSections, pinnedCount, allocationProgress };
 }
 

@@ -8,9 +8,47 @@
   </head>
   <body>
     <header class="app-header">
-      <div class="branding">
-        <h1>WWHS Head Teacher Super App</h1>
-        <p class="subtitle">Start the day with fast access to every critical TAS resource.</p>
+      <div class="header-content">
+        <div class="branding">
+          <p class="eyebrow">Matrix control center</p>
+          <h1>WWHS Head Teacher Super App</h1>
+          <p class="subtitle">
+            Balance timetables, surface files and keep planning momentum with a calm, tactile control
+            centre for TAS leadership.
+          </p>
+        </div>
+        <div class="metrics-grid" role="list">
+          <article class="metric-card" role="listitem">
+            <span class="metric-label">Total subjects</span>
+            <span class="metric-value" id="metric-total-subjects">0</span>
+          </article>
+          <article class="metric-card" role="listitem">
+            <span class="metric-label">Allocated subjects</span>
+            <span class="metric-value" id="metric-allocated">0</span>
+          </article>
+          <article class="metric-card" role="listitem">
+            <span class="metric-label">Pinned allocation</span>
+            <span class="metric-value" id="metric-pinned">0</span>
+          </article>
+          <article class="metric-card metric-progress" role="listitem">
+            <span class="metric-label">Allocation progress</span>
+            <div class="progress-indicator" aria-hidden="true">
+              <svg viewBox="0 0 36 36" role="presentation">
+                <path
+                  class="progress-track"
+                  d="M18 2.0845a15.9155 15.9155 0 1 1 0 31.831A15.9155 15.9155 0 1 1 18 2.0845"
+                ></path>
+                <path
+                  class="progress-fill"
+                  id="metric-progress-path"
+                  stroke-dasharray="0, 100"
+                  d="M18 2.0845a15.9155 15.9155 0 1 1 0 31.831A15.9155 15.9155 0 1 1 18 2.0845"
+                ></path>
+              </svg>
+              <span class="progress-value" id="metric-progress">0%</span>
+            </div>
+          </article>
+        </div>
       </div>
       <div class="search-controls">
         <label class="search-field">
@@ -39,6 +77,44 @@
         </div>
       </div>
     </header>
+
+    <section class="legend-panel" aria-label="Legend and quick reference">
+      <header class="legend-header">
+        <h2>Legend &amp; Quick Reference</h2>
+        <p>
+          Every colour represents a different allocation state. Use this guide while dragging subjects
+          or pinning key sections so you always know what is ready, what needs review and what is locked
+          in for term planning.
+        </p>
+      </header>
+      <div class="legend-grid" role="list">
+        <article class="legend-card available" role="listitem">
+          <span class="legend-status">Available subject</span>
+          <p>Open sections with resources ready to deploy. Tap the star to secure them for quick access.</p>
+        </article>
+        <article class="legend-card allocated" role="listitem">
+          <span class="legend-status">Allocated subject</span>
+          <p>
+            Sections that already have detailed plans and linked assets. Review the links to brief
+            relieving teachers.
+          </p>
+        </article>
+        <article class="legend-card pinned" role="listitem">
+          <span class="legend-status">Pinned spotlight</span>
+          <p>
+            Your personal shortlist. Toggle “Show pinned only” in the control hub when you need a rapid
+            briefing set.
+          </p>
+        </article>
+        <article class="legend-card warning" role="listitem">
+          <span class="legend-status">Room clash</span>
+          <p>
+            Check any sections marked with clashing resources or outdated files before signing off the
+            matrix.
+          </p>
+        </article>
+      </div>
+    </section>
 
     <section class="app-intro" aria-label="How to use this hub">
       <div class="intro-highlight">
@@ -81,6 +157,18 @@
 
     <main class="app-layout">
       <aside class="sidebar" aria-label="Quick category navigation">
+        <section class="sidebar-block">
+          <h2>Control hub</h2>
+          <p>
+            Set your filters, browse categories and pin live sections. Everything updates instantly as
+            you fine-tune the timetable.
+          </p>
+        </section>
+        <section class="sidebar-block start-here">
+          <h3>Start here</h3>
+          <p>Download the latest TAS overview or share this hub for fast onboarding.</p>
+          <a class="primary-button" href="data/resources.json" download>Download data snapshot</a>
+        </section>
         <h2>Categories</h2>
         <nav id="category-nav"></nav>
         <section class="insights">
