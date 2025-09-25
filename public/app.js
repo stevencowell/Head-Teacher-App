@@ -101,6 +101,7 @@ function renderCategoryNav() {
     button.className = 'category-link';
     button.dataset.category = category.code;
     button.type = 'button';
+    button.title = category.description || 'Overview coming soon.';
     button.innerHTML = `<span>${category.code}. ${category.title}</span><span>${category.sections.length}</span>`;
     button.addEventListener('click', () => scrollToCategory(category.code));
     elements.categoryNav.append(button);
@@ -207,7 +208,15 @@ function render() {
       category.sections.length !== 1 ? 's' : ''
     } • ${totalLinks} link${totalLinks !== 1 ? 's' : ''}`;
     const description = card.querySelector('.description');
-    description.textContent = category.description || 'No overview has been provided yet.';
+    description.textContent = '';
+    const overviewLabel = document.createElement('strong');
+    overviewLabel.textContent = 'Overview';
+    description.append(overviewLabel);
+    description.append(
+      document.createTextNode(
+        category.description ? ` ${category.description}` : ' No overview has been provided yet.'
+      )
+    );
     const linksContainer = card.querySelector('.links');
     linksContainer.innerHTML = '';
     category.links.forEach((link) => {
@@ -242,6 +251,17 @@ function render() {
 
     const grid = document.createElement('div');
     grid.className = 'section-grid';
+
+    if (category.description) {
+      const overview = document.createElement('div');
+      overview.className = 'category-overview';
+      const heading = document.createElement('h3');
+      heading.textContent = 'Overview';
+      const copy = document.createElement('p');
+      copy.textContent = category.description;
+      overview.append(heading, copy);
+      details.append(overview);
+    }
 
     if (!category.sections.length) {
       const emptyCategory = document.createElement('p');

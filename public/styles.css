@@ -1,16 +1,17 @@
 :root {
   color-scheme: light dark;
-  --bg: #f4f6fb;
+  --bg: #f6f9ff;
   --surface: #ffffff;
-  --surface-alt: #eef2fb;
-  --border: #dbe1f4;
-  --accent: #3453b7;
-  --accent-soft: #ebf0ff;
-  --text: #1f2633;
-  --text-subtle: #4a5570;
-  --success: #2c8f60;
-  --warning: #b76f1e;
-  --shadow: 0 24px 60px rgba(31, 38, 51, 0.08);
+  --surface-alt: #eff4ff;
+  --surface-strong: #dbe8ff;
+  --border: #d5dff5;
+  --accent: #2563eb;
+  --accent-strong: #1d4ed8;
+  --accent-soft: #e3ecff;
+  --accent-soft-strong: #c6d7ff;
+  --text: #0f1f3d;
+  --text-subtle: #4c5f7a;
+  --shadow: 0 24px 60px rgba(17, 31, 61, 0.12);
   font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
 }
 
@@ -23,7 +24,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: linear-gradient(180deg, var(--bg) 0%, #ffffff 60%);
+  background: linear-gradient(180deg, #f8fbff 0%, #eef3ff 45%, #ffffff 100%);
   color: var(--text);
 }
 
@@ -39,9 +40,10 @@ body {
   display: grid;
   gap: 1.5rem;
   padding: 1.5rem clamp(1.5rem, 3vw, 3rem);
-  background: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(227, 236, 255, 0.95) 100%);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(17, 31, 61, 0.08);
 }
 
 .branding h1 {
@@ -70,7 +72,7 @@ body {
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: 0 0.5rem;
-  box-shadow: var(--shadow);
+  box-shadow: 0 16px 36px rgba(37, 99, 235, 0.08);
 }
 
 .search-field input {
@@ -175,14 +177,60 @@ body {
   cursor: pointer;
   color: inherit;
   font-size: 0.95rem;
-  transition: background 0.2s ease, border 0.2s ease, color 0.2s ease;
+  transition: background 0.2s ease, border 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .category-link:hover,
 .category-link.active {
   background: var(--accent-soft);
   border-color: var(--accent);
-  color: var(--accent);
+  color: var(--accent-strong);
+  transform: translateX(4px);
+}
+
+.app-intro {
+  padding: 2rem clamp(1.5rem, 3vw, 3rem) 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.intro-highlight {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(29, 78, 216, 0.18));
+  border: 1px solid var(--accent-soft-strong);
+  border-radius: 24px;
+  padding: clamp(1.25rem, 3vw, 1.75rem);
+  color: var(--text);
+  box-shadow: 0 18px 44px rgba(37, 99, 235, 0.08);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.1rem;
+}
+
+.intro-card {
+  background: var(--surface);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  padding: 1.2rem 1.4rem;
+  display: grid;
+  gap: 0.6rem;
+  box-shadow: 0 12px 24px rgba(17, 31, 61, 0.06);
+}
+
+.intro-card h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--accent-strong);
+}
+
+.intro-card p {
+  margin: 0;
+  color: var(--text-subtle);
+  line-height: 1.55;
 }
 
 .insights {
@@ -237,6 +285,7 @@ body {
   align-items: center;
   cursor: pointer;
   gap: 1rem;
+  border-bottom: 1px solid rgba(213, 223, 245, 0.6);
 }
 
 .category-section summary::marker,
@@ -245,13 +294,34 @@ body {
 }
 
 .category-section[open] summary {
-  background: var(--accent-soft);
-  color: var(--accent);
+  background: linear-gradient(135deg, rgba(227, 236, 255, 0.8), rgba(255, 255, 255, 0.9));
+  color: var(--accent-strong);
 }
 
 .section-count {
   color: var(--text-subtle);
   font-size: 0.9rem;
+}
+
+.category-overview {
+  padding: 1.25rem 1.5rem 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.category-overview h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--accent-strong);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.category-overview p {
+  margin: 0;
+  color: var(--text-subtle);
+  line-height: 1.6;
+  font-size: 0.95rem;
 }
 
 .section-grid {
@@ -273,7 +343,7 @@ body {
 
 .resource-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 18px 40px rgba(52, 83, 183, 0.16);
+  box-shadow: 0 18px 40px rgba(29, 78, 216, 0.18);
 }
 
 .resource-card header {
@@ -292,10 +362,10 @@ body {
   gap: 0.35rem;
   padding: 0.25rem 0.65rem;
   border-radius: 999px;
-  background: var(--surface-alt);
-  color: var(--text-subtle);
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--accent-strong);
   font-size: 0.85rem;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   width: fit-content;
 }
 
@@ -320,7 +390,7 @@ body {
   padding: 0.55rem 0.9rem;
   border-radius: 999px;
   border: 1px solid var(--accent);
-  color: var(--accent);
+  color: var(--accent-strong);
   text-decoration: none;
   font-weight: 600;
   background: #fff;
@@ -355,7 +425,7 @@ body {
 }
 
 .pin-button.pinned {
-  color: var(--accent);
+  color: var(--accent-strong);
   transform: scale(1.2);
 }
 
@@ -400,8 +470,9 @@ body {
   gap: 0.6rem;
   padding: 1.2rem;
   border-radius: 18px;
-  border: 1px solid var(--border);
-  background: var(--surface-alt);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  background: linear-gradient(135deg, rgba(239, 244, 255, 0.92), rgba(255, 255, 255, 0.98));
+  box-shadow: 0 16px 32px rgba(17, 31, 61, 0.08);
 }
 
 .category-card header {
@@ -411,9 +482,24 @@ body {
   gap: 0.5rem;
 }
 
+.category-card .description {
+  color: var(--text-subtle);
+  font-size: 0.9rem;
+}
+
+.category-card .description strong {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--accent-strong);
+  margin-bottom: 0.35rem;
+}
+
 .category-card h2 {
   margin: 0;
   font-size: 1rem;
+  color: var(--text);
 }
 
 .category-card .meta {
@@ -430,11 +516,18 @@ body {
 .category-card .links a {
   padding: 0.35rem 0.65rem;
   border-radius: 999px;
-  border: 1px solid transparent;
-  background: rgba(52, 83, 183, 0.1);
-  color: var(--accent);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  background: rgba(37, 99, 235, 0.12);
+  color: var(--accent-strong);
   text-decoration: none;
   font-size: 0.85rem;
+}
+
+.category-card .links a:hover,
+.category-card .links a:focus {
+  background: var(--accent-strong);
+  color: #fff;
+  border-color: transparent;
 }
 
 .sr-only {
@@ -469,6 +562,10 @@ body {
   .app-header {
     position: relative;
     top: auto;
+  }
+
+  .app-intro {
+    padding-top: 1rem;
   }
 
   .filter-row {
