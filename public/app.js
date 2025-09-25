@@ -1,4 +1,4 @@
-const DATA_URL = '../data/resources.json';
+const DATA_URL = 'data/resources.json';
 const STORAGE_KEY = 'wwhs-head-teacher-pinned';
 
 const state = {
