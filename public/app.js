@@ -229,9 +229,21 @@ function render() {
     linksContainer.innerHTML = '';
     category.links.forEach((link) => {
       const anchor = document.createElement('a');
+      const openInNewTab = link.openInNewTab !== false;
       anchor.href = link.url;
-      anchor.target = '_blank';
-      anchor.rel = 'noopener noreferrer';
+      if (openInNewTab) {
+        anchor.target = '_blank';
+        anchor.rel = 'noopener noreferrer';
+      } else {
+        anchor.target = '_self';
+      }
+      if (!openInNewTab && link.url.startsWith('#category-')) {
+        anchor.addEventListener('click', (event) => {
+          event.preventDefault();
+          const code = link.url.slice('#category-'.length).toUpperCase();
+          scrollToCategory(code);
+        });
+      }
       anchor.textContent = link.label;
       linksContainer.append(anchor);
     });

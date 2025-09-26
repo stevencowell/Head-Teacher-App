@@ -187,7 +187,13 @@
     "code": "B",
     "title": "Classroom",
     "description": "Everything you need to run classes day-to-day, from program documentation and assessment schedules to health plans, compliance records and student reporting workflows.",
-    "links": [],
+    "links": [
+      {
+        "label": "Browse classroom folders (B1–B30)",
+        "url": "#category-B",
+        "openInNewTab": false
+      }
+    ],
     "sections": [
       {
         "code": "B1",
@@ -762,7 +768,13 @@
     "code": "C",
     "title": "Faculty",
     "description": "Lead the TAS team with clarity—budget management, staff wellbeing processes, professional learning, accreditation and operational templates live here.",
-    "links": [],
+    "links": [
+      {
+        "label": "Browse faculty folders (C1–C32)",
+        "url": "#category-C",
+        "openInNewTab": false
+      }
+    ],
     "sections": [
       {
         "code": "C1",
@@ -1422,7 +1434,13 @@
     "code": "D",
     "title": "Whole School",
     "description": "Keep in step with whole-school expectations including mandatory reporting, emergency procedures, executive operations and shared reference handbooks.",
-    "links": [],
+    "links": [
+      {
+        "label": "Browse whole school folders (D1–D29)",
+        "url": "#category-D",
+        "openInNewTab": false
+      }
+    ],
     "sections": [
       {
         "code": "D1",
