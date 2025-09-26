@@ -3,7 +3,12 @@
     "code": "A",
     "title": "TAS TASKS",
     "description": "Quick access to the VET section can be found here.",
-    "links": [],
+    "links": [
+      {
+        "label": "Browse TAS folders (A1–A12)",
+        "url": "https://drive.google.com/drive/u/0/folders/0B40F5Y8uF0rvfkl1S2FEbjRhVmJYRWYyY2dlOFVHMDdQeFNyQlRBUzBudmtHRGJKdE83VVk?resourcekey=0-fXD-BgXggkE5EyIeJJdt5g"
+      }
+    ],
     "sections": [
       {
         "code": "A1",
