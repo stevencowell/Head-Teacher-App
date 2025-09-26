@@ -362,6 +362,9 @@ function shouldAutoOpenCategory(category) {
   if (state.showPinnedOnly) {
     return category.sections.some((section) => state.pinned.has(sectionKey(category.code, section.code)));
   }
+  if (state.searchTerm) {
+    return category.sections.length > 0 || category.categoryMatches;
+  }
   return false;
 }
 
