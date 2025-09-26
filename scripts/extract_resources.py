@@ -226,91 +226,129 @@ def extract() -> List[Dict[str, object]]:
     if body is None:
         raise RuntimeError("Document body not found")
 
-    table = body.find("w:tbl", NS)
-    if table is None:
-        raise RuntimeError("Expected resource table was not found in the document")
-
-    rows = table.findall("w:tr", NS)
-    if not rows:
-        raise RuntimeError("The resource table does not contain any rows")
+    tables = body.findall("w:tbl", NS)
+    if not tables:
+        raise RuntimeError("Expected resource tables were not found in the document")
 
     categories: List[Dict[str, object]] = []
+    categories_by_code: Dict[str, Dict[str, object]] = {}
     current_category: Dict[str, object] | None = None
 
     category_pattern = re.compile(r"^([A-Z])\.\s*(.+)")
-    section_pattern = re.compile(r"^([A-Z])(\d+)\.\s*(.+)")
+    section_pattern = re.compile(r"^([A-Z])\s*([0-9]+[A-Za-z]*)\.\s*(.+)")
+    fallback_section_pattern = re.compile(r"^([0-9]+[A-Za-z]*)\.\s*(.+)")
 
-    for row in rows[1:]:  # Skip the header row
-        cells = row.findall("w:tc", NS)
-        cell_parsed = [_parse_cell(cell, rel_map) for cell in cells]
-        first_text = cell_parsed[0]["text"] if cell_parsed else ""
-        if not first_text:
+    def get_category(code: str, title: str = "", description: str = "", links: List[Dict[str, str]] | None = None):
+        nonlocal categories, categories_by_code
+        if code in categories_by_code:
+            category = categories_by_code[code]
+            if title and not category.get("title"):
+                category["title"] = title
+            if description:
+                existing_desc = category.get("description", "").strip()
+                if not existing_desc:
+                    category["description"] = description
+                elif description not in existing_desc:
+                    category["description"] = "\n".join(filter(None, [existing_desc, description]))
+            if links:
+                category.setdefault("links", []).extend(links)
+            return category
+
+        category = {
+            "code": code,
+            "title": title.strip(),
+            "description": description.strip(),
+            "links": list(links or []),
+            "sections": [],
+        }
+        categories.append(category)
+        categories_by_code[code] = category
+        return category
+
+    for table in tables:
+        rows = table.findall("w:tr", NS)
+        if not rows:
             continue
 
-        cat_match = category_pattern.match(first_text)
-        sec_match = section_pattern.match(first_text)
+        start_index = 0
+        header_cells = [_parse_cell(cell, rel_map) for cell in rows[0].findall("w:tc", NS)]
+        header_text = " ".join(cell["text"] for cell in header_cells if cell.get("text"))
+        if "STATUS" in header_text.upper() and "DESCRIPTION" in header_text.upper():
+            start_index = 1
 
-        if cat_match and not sec_match:
-            description = cell_parsed[1]["text"] if len(cell_parsed) > 1 else ""
-            links = cell_parsed[1]["links"] if len(cell_parsed) > 1 else []
-            current_category = {
-                "code": cat_match.group(1),
-                "title": cat_match.group(2).strip(),
-                "description": description,
-                "links": links,
-                "sections": [],
-            }
-            categories.append(current_category)
-            continue
+        for row in rows[start_index:]:
+            cells = row.findall("w:tc", NS)
+            cell_parsed = [_parse_cell(cell, rel_map) for cell in cells]
+            if not cell_parsed:
+                continue
 
-        if sec_match:
-            if current_category is None or current_category.get("code") != sec_match.group(1):
-                current_category = {
-                    "code": sec_match.group(1),
-                    "title": "Misc",
-                    "description": "",
-                    "links": [],
-                    "sections": [],
-                }
-                categories.append(current_category)
+            first_text = cell_parsed[0].get("text", "").strip()
+            if not first_text:
+                continue
 
-            status = cell_parsed[1]["text"] if len(cell_parsed) > 1 else ""
-            description = (
-                cell_parsed[2]["text"]
-                if len(cell_parsed) > 2
-                else (cell_parsed[1]["text"] if len(cell_parsed) > 1 else "")
-            )
+            cat_match = category_pattern.match(first_text)
+            sec_match = section_pattern.match(first_text)
+            fallback_match = None if sec_match else fallback_section_pattern.match(first_text)
 
-            links: List[Dict[str, str]] = []
-            if len(cell_parsed) > 2:
-                links.extend(cell_parsed[2]["links"])
-            if len(cell_parsed) > 1:
-                links.extend(cell_parsed[1]["links"])
+            if cat_match and not sec_match:
+                description = cell_parsed[1]["text"] if len(cell_parsed) > 1 else ""
+                links = cell_parsed[1]["links"] if len(cell_parsed) > 1 else []
+                current_category = get_category(cat_match.group(1), cat_match.group(2), description, links)
+                continue
 
-            section = {
-                "code": f"{sec_match.group(1)}{sec_match.group(2)}",
-                "title": sec_match.group(3).strip(),
-                "status": status,
-                "description": description,
-                "links": links,
-            }
-            current_category.setdefault("sections", []).append(section)
-            continue
+            if sec_match or (fallback_match and current_category):
+                if sec_match:
+                    letter = sec_match.group(1)
+                    numeric = sec_match.group(2)
+                    title = sec_match.group(3)
+                else:
+                    letter = current_category.get("code", "") if current_category else ""
+                    numeric = fallback_match.group(1)
+                    title = fallback_match.group(2)
 
-        if current_category and current_category.get("sections"):
-            section = current_category["sections"][-1]
-            extra_text = " ".join(
-                filter(
-                    None,
-                    [
-                        section.get("description", ""),
-                        " ".join(filter(None, [cell.get("text") for cell in cell_parsed[1:]])),
-                    ],
+                if not letter:
+                    continue
+
+                if current_category is None or current_category.get("code") != letter:
+                    current_category = get_category(letter)
+
+                status = cell_parsed[1]["text"] if len(cell_parsed) > 1 else ""
+                description = (
+                    cell_parsed[2]["text"]
+                    if len(cell_parsed) > 2
+                    else (cell_parsed[1]["text"] if len(cell_parsed) > 1 else "")
                 )
-            )
-            section["description"] = extra_text.strip()
-            for cell in cell_parsed[1:]:
-                section.setdefault("links", []).extend(cell.get("links", []))
+
+                links: List[Dict[str, str]] = []
+                if len(cell_parsed) > 2:
+                    links.extend(cell_parsed[2]["links"])
+                if len(cell_parsed) > 1:
+                    links.extend(cell_parsed[1]["links"])
+
+                section = {
+                    "code": f"{letter}{numeric}",
+                    "title": title.strip(),
+                    "status": status,
+                    "description": description,
+                    "links": links,
+                }
+                current_category.setdefault("sections", []).append(section)
+                continue
+
+            if current_category and current_category.get("sections"):
+                section = current_category["sections"][-1]
+                extra_text = " ".join(
+                    filter(
+                        None,
+                        [
+                            section.get("description", ""),
+                            " ".join(filter(None, [cell.get("text") for cell in cell_parsed[1:]])),
+                        ],
+                    )
+                )
+                section["description"] = extra_text.strip()
+                for cell in cell_parsed[1:]:
+                    section.setdefault("links", []).extend(cell.get("links", []))
 
     return categories
 

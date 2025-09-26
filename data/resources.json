@@ -3,12 +3,7 @@
     "code": "A",
     "title": "TAS TASKS",
     "description": "Quick access to the VET section can be found here.",
-    "links": [
-      {
-        "label": "Browse TAS folders (A1–A12)",
-        "url": "https://drive.google.com/drive/u/0/folders/0B40F5Y8uF0rvfkl1S2FEbjRhVmJYRWYyY2dlOFVHMDdQeFNyQlRBUzBudmtHRGJKdE83VVk?resourcekey=0-fXD-BgXggkE5EyIeJJdt5g"
-      }
-    ],
+    "links": [],
     "sections": [
       {
         "code": "A1",
@@ -26,11 +21,19 @@
         "code": "A2",
         "title": "Faculty Management Plan",
         "status": "updated 2025",
-        "description": "4-year Faculty Management Plan outlines the TAS faculty's goals and direction for a 4 year period. It relates directly to the school plan (see the School Plan section) and the TAS staff Personal Development plans (see Staff Professional Development - PDP’s and Teacher Professional Learning). TAS draft administration plan can be found here. A slide show on how to make a great faculty can be found here.",
+        "description": "4-year Faculty Management Plan outlines the TAS faculties goals and direction for a 4 year period. It relates direc_tly to the school plan and the TAS staffs Personal Development plans. (PDP’s.) TAS draft administration plan can be found here. A slide show on how to make a great faculty can be found here.",
         "links": [
           {
             "label": "4-year Faculty Management Plan",
             "url": "https://drive.google.com/open?id=1-6R5XZqtIiMPZhjNfpNGCByvtWgSOI7gP6RlOvQFuY8"
+          },
+          {
+            "label": "school plan",
+            "url": "https://drive.google.com/drive/folders/17ATo7vE9GAYLf4aBQo-3cT0NQ8gKL-0M?usp=sharing"
+          },
+          {
+            "label": "Personal Development plans. (PDP’s.)",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvb0JjS0lDalZRQTg"
           },
           {
             "label": "TAS draft administration plan",
@@ -96,6 +99,10 @@
             "url": "https://drive.google.com/open?id=1OyympKBcjFtQPNibjC9O3ZkLj48ssmCu"
           },
           {
+            "label": "headteacher roster includes times for Bus Duty, Minute Taking, Chairperson for Exec and whole school meetings, etc and",
+            "url": "https://drive.google.com/open?id=1OyympKBcjFtQPNibjC9O3ZkLj48ssmCu"
+          },
+          {
             "label": "Assembly Duty for Faculties",
             "url": "https://drive.google.com/drive/folders/1VHvruX9gI9sm77UA-ZFFGA4hkfxvlLdQ?usp=sharing"
           },
@@ -125,6 +132,10 @@
         "links": [
           {
             "label": "Playground",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvQkdEZDFWa3JrWkE"
+          },
+          {
+            "label": "Playground duty and roll classes",
             "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvQkdEZDFWa3JrWkE"
           },
           {
@@ -186,14 +197,8 @@
   {
     "code": "B",
     "title": "Classroom",
-    "description": "Everything you need to run classes day-to-day, from program documentation and assessment schedules to health plans, compliance records and student reporting workflows.",
-    "links": [
-      {
-        "label": "Browse classroom folders (B1–B30)",
-        "url": "#category-B",
-        "openInNewTab": false
-      }
-    ],
+    "description": "",
+    "links": [],
     "sections": [
       {
         "code": "B1",
@@ -226,7 +231,11 @@
             "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvX1VrX1VSa21HR2c"
           },
           {
-            "label": "HSC data analysis (includes blank template)",
+            "label": "HSC data analysis",
+            "url": "https://drive.google.com/open?id=1G1olT0Od_8413p0Z92ZI4DW4-b1F63BXz1UPZfcVQbY"
+          },
+          {
+            "label": "blank HSC data analysis sheet",
             "url": "https://drive.google.com/open?id=1G1olT0Od_8413p0Z92ZI4DW4-b1F63BXz1UPZfcVQbY"
           },
           {
@@ -242,7 +251,11 @@
         "description": "Programs and registrations are to be completed for each current class and accessed via the faculty Google Drive. A program builder from NESA can be found here. A PowerPoint on how to use program builder can be found here. Links to current programs and monitoring folders can be found here. Some experimentation using Google Sites is occurring to access course information. Examples of this can be found here.",
         "links": [
           {
-            "label": "Programs and registrations Google Drive",
+            "label": "Programs and registrations",
+            "url": "https://drive.google.com/drive/u/1/folders/0B40F5Y8uF0rvTTR6SGpKYzdEWU0"
+          },
+          {
+            "label": "Google Drive",
             "url": "https://drive.google.com/drive/u/1/folders/0B40F5Y8uF0rvTTR6SGpKYzdEWU0"
           },
           {
@@ -298,7 +311,11 @@
         "description": "Assessment Schedule booklets for Yr10, Yr11 and Yr12 can be found on the WWHS Staff Shared Google Drive here. Past TAS assessment schedules can be found here. Assessment tasks need to be given out on the due date. A blank copy of stage 5 and 6 assessment task proforma can be found here. Changes to task dates should go via the executive and amendments made to the schedule and monitoring folders.",
         "links": [
           {
-            "label": "WWHS Staff shared drive (assessment booklets)",
+            "label": "WWHS Staff",
+            "url": "https://drive.google.com/drive/folders/1s1dZTbWdtRPkDb4Id7Y21v0a2fjm-amm?usp=sharing"
+          },
+          {
+            "label": "Assessment Schedule booklets for Yr10, Yr11 and Yr12 can be found on the WWHS Staff Shared Google Drive",
             "url": "https://drive.google.com/drive/folders/1s1dZTbWdtRPkDb4Id7Y21v0a2fjm-amm?usp=sharing"
           },
           {
@@ -359,11 +376,15 @@
         "code": "B9",
         "title": "Student Fees and safety shoes",
         "status": "updated 2022",
-        "description": "Students are to be given a note regarding subject fees and safety shoes within the first couple of lessons. Students have until week 6 to pay fees otherwise alternate material/work may need to be utilised. A list of subject fees is available in the Subject Selection Handbooks / Videos section. Students with incorrect footwear will need to be given alternate work. Copying the Workshop rules and the contract is a good option for this and it can be found here. Special rules must be followed when using knives in the kitchen. Faculty policy for using knives can be found here.",
+        "description": "Students are to be given a note regarding subject fees and safety shoes within the first couple of lessons. Students have until week 6 to pay fees otherwise alternate material/work may need to be utilised. A list of subject fees can be found in each of the stage subject selection handbooks which can be found here. Students with incorrect footwear will need to be given alternate work. Copying the Workshop rules and the contract is a good option for this and it can be found here. Special rules must be followed when using knives in the kitchen. Faculty policy for using knives can be found here.",
         "links": [
           {
             "label": "note",
             "url": "https://drive.google.com/file/d/1x02GzD5i7-dxux-w1wBYQCRvHtpbd5tl/view?usp=sharing"
+          },
+          {
+            "label": "list of subject fees can be found in each of the stage subject selection handbooks which",
+            "url": "https://drive.google.com/drive/folders/1hksqunt95IMI2r5D0zX2gsH0ls342w_x?usp=sharing"
           },
           {
             "label": "Copying the Workshop rules and the contract is a good option for this and it",
@@ -531,6 +552,10 @@
           {
             "label": "Power Grammar",
             "url": "https://drive.google.com/drive/folders/15TiLPJAxXZIKgm93roWISZrKTm7CusDx?usp=sharing"
+          },
+          {
+            "label": "technique used to break down passages of work called ‘Power Grammar’",
+            "url": "https://drive.google.com/drive/folders/15TiLPJAxXZIKgm93roWISZrKTm7CusDx?usp=sharing"
           }
         ]
       },
@@ -538,7 +563,7 @@
         "code": "B17",
         "title": "Senior monitoring folders",
         "status": "Updated 2022",
-        "description": "Teachers of senior classes are required to keep monitoring folders of each subject. Content for these folders can be found here. Hard copies of current classes are to be kept in the staff room. Electronic copies/backups can be kept here. Information from the department regarding Higher School Certificate Monitoring can be found at: https://education.nsw.gov.au/assessment-and-reporting/assessment/stage6 . Forms relating to the ‘signing off of HSC’ monitoring by the principal can be found here. VET monitoring information can be found here. NESA Monitoring Advice to principals can be found here. Use the Programs and Registration section for the latest NESA links to current programs and monitoring folders.",
+        "description": "Teachers of senior classes are required to keep monitoring folders of each subject. Content for these folders can be found here. Hard copies of current classes are to be kept in the staff room. Electronic copies/backups can be kept here. Information from the department regarding Higher School Certificate Monitoring can be found at: https://education.nsw.gov.au/assessment-and-reporting/assessment/stage6 . Forms relating to the ‘signing off of HSC’ monitoring by the principal can be found here. VET monitoring information can be found here. NESA Monitoring Advice to principals can be found here. NESA Links to current programs and monitoring folders can be found here",
         "links": [
           {
             "label": "Content for these folders",
@@ -559,6 +584,10 @@
           {
             "label": "NESA Monitoring Advice to principals",
             "url": "https://drive.google.com/drive/folders/1muI_7HwRG9Gadk6uPhWRP0A-No-wsm-J?usp=sharing"
+          },
+          {
+            "label": "NESA Links to current programs and monitoring folders",
+            "url": "https://drive.google.com/drive/folders/1nj9qyLUhQ7Ko6M2PECJ53Od6eJt_ktiq?usp=sharing"
           }
         ]
       },
@@ -767,14 +796,8 @@
   {
     "code": "C",
     "title": "Faculty",
-    "description": "Lead the TAS team with clarity—budget management, staff wellbeing processes, professional learning, accreditation and operational templates live here.",
-    "links": [
-      {
-        "label": "Browse faculty folders (C1–C32)",
-        "url": "#category-C",
-        "openInNewTab": false
-      }
-    ],
+    "description": "",
+    "links": [],
     "sections": [
       {
         "code": "C1",
@@ -783,7 +806,11 @@
         "description": "TAS / VET Budgets are divided up into 3 Cost Centres: TAS, Industrial Arts, and Home Economics. Further Internal order sections are broken up within each Cost Centre. The Faculty Budget spreadsheet can be found for here. Approval of orders are completed by the HT via a green purchase order form. Claims can be applied by using the orange claim form. Both forms can be obtained from the finance office. Budget allocations can be found at T:\\Office\\Finance\nInformation on how to order stationary via WINC can be found here.",
         "links": [
           {
-            "label": "Cost centres and internal order sections",
+            "label": "3 Cost Centres",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvMGQ3NXFROFJnLWM"
+          },
+          {
+            "label": "Internal order sections",
             "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvMGQ3NXFROFJnLWM"
           },
           {
@@ -804,8 +831,12 @@
         "code": "C2",
         "title": "Student Welfare and Behaviour",
         "status": "updated 2022",
-        "description": "Student Wellbeing and behaviour policy details are provided via the Whole School → Student Wellbeing section. Student welfare profiles are available on Sentral. Monitoring of students with 3 or more Sentral entries in a 2 week period should be excluded from all extra curricular activities. The list can be found here.",
+        "description": "Student Wellbeing and behaviour policy can be found  on the WWHS Staff google drive, here. Student welfare profiles are available on Sentral\nMonitoring of students with 3 or more Sentral entries in a 2 week period. Theses students should be excluded from all extra curricular activities. The list can be found here.",
         "links": [
+          {
+            "label": "Student Wellbeing and behaviour policy can be found  on the WWHS Staff google drive",
+            "url": "https://drive.google.com/drive/folders/1zy6i08CnsDwDOiXMhfm_EkS6Dl43Hpuh?usp=sharing"
+          },
           {
             "label": "Sentral",
             "url": "http://web1.waggawagga-h.schools.nsw.edu.au/wellbeing/"
@@ -823,12 +854,16 @@
         "description": "All staff must complete a PDP document each year and have it approved by their direct supervisor. Teachers Professional Development should relate directly to the Australian teaching standards which can be found here. Ongoing and completed PDP forms should be stored here. Evidence of meeting goals within a teachers PDP can be stored here. New online applications for rolesPDP’s can be found on SENTRAL. The departments PDP guideline document can be found here. Professional learning feedback forms can be found here. A code to Wagga High Schools Google Classroom is thly0x. A PDP guide developed by the HT Teaching and Learning can be found here. A collaboration notebook (One Note) for teaching communities can be found here.  Instructions for applying for professional learning can be found here.\n2023 Rotation for PDP days and sport duty can be found here.",
         "links": [
           {
-            "label": "PDP templates and storage",
+            "label": "document",
             "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvb0JjS0lDalZRQTg"
           },
           {
             "label": "Teachers Professional Development should relate directly to the Australian teaching standards which",
             "url": "https://drive.google.com/open?id=1JLgRXIP3R49gqfBZ1GrWyjIlcDTjsGo9"
+          },
+          {
+            "label": "Ongoing and completed PDP forms should be stored",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvb0JjS0lDalZRQTg"
           },
           {
             "label": "Evidence of meeting goals within a teachers PDP can be stored",
@@ -1003,7 +1038,11 @@
         "description": "All chemicals need to be kept in a locked chemical cupboard and each item must be registered in “Chem Watch”, outlining the product name, amount, and where it is stored. A copy of the latest TAS chemicals files can be found here.  Also material safety data sheets are to be obtainable for each item. These are printed and stored in the TAS staff room above the headteacher VET’s desk. The department’s Chemical safety in schools  website can be found. A link to Chemwatch Gold can be found here. The Departments Chemical Safety Requirements can be found\nSafety Data sheets must be readily accessible in the room where the substances are used/stored. Access can be electronic. In the past SafeWork have recommended that the mini Safety Data sheets (one page) is kept in the room where they are stored, rather than the full version.  This is so that in the event of a power fail, easy access the summary SDS for emergency responses i.e. first aid, spills etc. Staff can then access the full one online if needed. Below is the link to Chemical safety requirements within the department, including CSIS. There is also a webinar that specifically deals with high school settings.\nhttps://education.nsw.gov.au/inside-the-department/health-and-safety/risk-management/chemicals-and-sharps   Cheryl McKee Work Health and Safety Advisor | Health and Safety Directorate 27.7.2021\nSafe Work Australia Preparation of safety data sheets for hazardous chemicals Code of Practice JUNE 2023\nDepartment of Ed - Health and Safety Directorates:-   FACT SHEETS\nChemicals:-\nHow to Approach Chemical Safety\nRequired Chemical Systems and Registers\nEveryday Chemicals & Cleaners\nGeneral Assistants and Farm Assistants\nGeneral Guidelines on How to Approach Chemical Safety - TAS\nChemical support material:-\nChemical Safety in Schools\nChemical Safety - GHS\nChecklist for working with hazardous substances - V1\nSharp objects support materials:-\nSharp objects - overview and key steps -V1\nGuidance in completing the risk management plan proforma - sharp objects - V2\nSample risk management plan: sharp objects - V1\nSafeWork - Hazardous chemicals\nChemical Safety in Schools (CSIS) Webinar slides\nNesa information\nSection 1: General information for all staff  here\n1.7 Risk Assessment - a pre-requisite for risk control\n1.8 Control measures for schools\n1.9 Hazardous Chemical Register and Manifest\n1.10 Managing chemicals in the school environment\n1.11 Protection equipment - Preventing chemical injury\n1.12 The Principal's guide to implementation\nSection 2: ChemWatch Technology Support  here\nChemWatch Training , Inventory files for the chemical register in Appendices B and Globally Harmonized System of Classification and labelling of Chemicals\nSection 3: Curriculum support Documents 3.3 (TAS)\nOrganising Chemicals  labelling, signs, storage\nSafe practice for technology learning environment  Lesson planning, preparation and maintenance of learning environment, Classroom management strategies, Contingency planning, Emergency evacuation procedures,\nUsing chemicals – containers, Preparation of chemicals, heating chemicals, fumes, spills and cleaning up\nSafe practices in food preparation areas, Using electric power tools\nInformation about common dangerous or hazardous activities General advise for chemicals commonly used in TAS ~\nadhesives,\ncleaning chemicals\nFabric dyes and printing inks\nfixatives\nmetals\n3.3.1 potential long-term health effects from some metal or their compounds\npaints\npetroleum products\nCommon dangerous or hazardous activities\nDisposal of unwanted materials",
         "links": [
           {
-            "label": "ChemWatch TAS chemical register",
+            "label": "Chem Watch",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvb25JWkQtUmxXNDQ"
+          },
+          {
+            "label": "copy of the latest TAS chemicals files",
             "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvb25JWkQtUmxXNDQ"
           },
           {
@@ -1015,11 +1054,15 @@
             "url": "https://online.det.nsw.edu.au/ecmjsp/chemicals/chemicals.cfm#skipToContent"
           },
           {
-            "label": "Chemwatch Gold login",
+            "label": "Chemwatch Gold",
             "url": "https://jr.chemwatch.net/chemwatch.web/account/login?ReturnUrl=%2fchemwatch.web%2fhome"
           },
           {
-            "label": "Chemical safety requirements overview",
+            "label": "link to Chemwatch Gold",
+            "url": "https://jr.chemwatch.net/chemwatch.web/account/login?ReturnUrl=%2fchemwatch.web%2fhome"
+          },
+          {
+            "label": "https://education.nsw.gov.au/inside-the-department/health-and-safety/risk-management/chemicals-and-sharps",
             "url": "https://education.nsw.gov.au/inside-the-department/health-and-safety/risk-management/chemicals-and-sharps"
           },
           {
@@ -1079,6 +1122,10 @@
             "url": "https://drive.google.com/drive/folders/1mQz9lpdd3rD8wgOWkbcXnITevqjddoue"
           },
           {
+            "label": "Section 1: General information for all staff",
+            "url": "https://education.nsw.gov.au/inside-the-department/facilities-assets-and-equipment/school-infrastructure-nsw/knowledge/directorates/operations/technical-services/compliance-and-environment/chemical-safety-in-schools/section-1--general-information-for-all-staff"
+          },
+          {
             "label": "1.7 Risk Assessment - a pre-requisite for risk control",
             "url": "https://education.nsw.gov.au/inside-the-department/facilities-assets-and-equipment/school-infrastructure-nsw/knowledge/directorates/operations/technical-services/compliance-and-environment/chemical-safety-in-schools/section-1--general-information-for-all-staff/1-7-risk-assessment---a-pre-requisite-for-risk-control"
           },
@@ -1107,6 +1154,10 @@
             "url": "https://education.nsw.gov.au/inside-the-department/facilities-assets-and-equipment/school-infrastructure-nsw/knowledge/directorates/operations/technical-services/compliance-and-environment/chemical-safety-in-schools/section-2--chemwatch-technology-support"
           },
           {
+            "label": "Section 2: ChemWatch Technology Support",
+            "url": "https://education.nsw.gov.au/inside-the-department/facilities-assets-and-equipment/school-infrastructure-nsw/knowledge/directorates/operations/technical-services/compliance-and-environment/chemical-safety-in-schools/section-2--chemwatch-technology-support"
+          },
+          {
             "label": "ChemWatch Training",
             "url": "https://chemwatch.training/"
           },
@@ -1120,6 +1171,10 @@
           },
           {
             "label": "Information about common dangerous or hazardous activities",
+            "url": "https://education.nsw.gov.au/inside-the-department/facilities-assets-and-equipment/school-infrastructure-nsw/knowledge/directorates/operations/technical-services/compliance-and-environment/chemical-safety-in-schools/section-3--curriculum-support-documents/3-3-4--information-about-common-dangerous-or-hazardous-activitie"
+          },
+          {
+            "label": "Common dangerous or hazardous activities",
             "url": "https://education.nsw.gov.au/inside-the-department/facilities-assets-and-equipment/school-infrastructure-nsw/knowledge/directorates/operations/technical-services/compliance-and-environment/chemical-safety-in-schools/section-3--curriculum-support-documents/3-3-4--information-about-common-dangerous-or-hazardous-activitie"
           },
           {
@@ -1268,7 +1323,7 @@
         "code": "C21",
         "title": "Yr 10 Grades",
         "status": "updated 2021",
-        "description": "TAS teachers of year 10 are required to supply grades for their year 10 students at the end of the year to go towards ROSA results. Grades are a summary of students assessments during the year and must reflect the performance descriptors laid out by the Board of Studies. Spreadsheet collection forms for each year can be found here. Course performance descriptors can be found here. Yr 11 Grades can be found here.",
+        "description": "TAS teachers of year 10 are required to supply grades for their year 10 students at the end of the year to go towards ROSA results. Grades are a summary of students assessments during the year and must reflect the performance descriptors laid out by the Board of Studies. Spreadsheet collection forms for each year can be found here. Course performance descriptors can be found here.",
         "links": [
           {
             "label": "performance descriptors",
@@ -1281,7 +1336,15 @@
           {
             "label": "Course performance descriptors",
             "url": "https://drive.google.com/drive/folders/1yUB1ga92wjOktrojGPZYwA7eoHEtkwW5?usp=sharing"
-          },
+          }
+        ]
+      },
+      {
+        "code": "C21A",
+        "title": "Yr 11 Grades",
+        "status": "",
+        "description": "Yr 11 Grades can be found here.",
+        "links": [
           {
             "label": "Yr 11 Grades",
             "url": "https://drive.google.com/drive/folders/1b_Um-vI-lMJZavp068JmVzSZAVkALiJD?usp=sharing"
@@ -1433,14 +1496,8 @@
   {
     "code": "D",
     "title": "Whole School",
-    "description": "Keep in step with whole-school expectations including mandatory reporting, emergency procedures, executive operations and shared reference handbooks.",
-    "links": [
-      {
-        "label": "Browse whole school folders (D1–D29)",
-        "url": "#category-D",
-        "openInNewTab": false
-      }
-    ],
+    "description": "",
+    "links": [],
     "sections": [
       {
         "code": "D1",
@@ -1849,6 +1906,1325 @@
           {
             "label": "Deputy responsibilities ca",
             "url": "https://docs.google.com/document/d/1VR-YAomE87RckggCyYmzL1u_9DAf_bdB/edit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "E",
+    "title": "VET Management",
+    "description": "updated 2023",
+    "links": [],
+    "sections": [
+      {
+        "code": "E001",
+        "title": "Essential Communication",
+        "status": "updated 2023",
+        "description": "The RTO now posts any Critical communications to QMS. The link can be found here.  Critical Communication and action taken and  VET Coordinators Meeting summaries",
+        "links": [
+          {
+            "label": "link",
+            "url": "https://qmsveis.info/cms.php?pageid=914"
+          },
+          {
+            "label": "Critical Communication and action taken",
+            "url": "https://drive.google.com/drive/folders/1njZLXKI5ahkrQO7hPs7nuPhZGPGTRvGw"
+          },
+          {
+            "label": "VET Coordinators Meeting summaries",
+            "url": "https://drive.google.com/drive/folders/1njZLXKI5ahkrQO7hPs7nuPhZGPGTRvGw"
+          }
+        ]
+      },
+      {
+        "code": "E01",
+        "title": "VET Moodle",
+        "status": "updated 2023",
+        "description": "This QMS provides access for schools and their trainers/assessors to all RTO(90333) documents, including mandated Training and Assessment Strategy (TAS) templates, mandated assessment packages required for school delivery and RTO procedure documents.  Training and Assessment Strategy (TAS)  from QMS\n2023 TAS forms.\nPrimary Industries and Hospitality is through Wagga Wagga – 90333\nTAS for Construction, Metal … Document Library\nStudents with special educational needs QMS",
+        "links": [
+          {
+            "label": "This",
+            "url": "https://lms.det.nsw.edu.au/RTO90333/"
+          },
+          {
+            "label": "QMS",
+            "url": "https://qmsveis.info/cms.php"
+          },
+          {
+            "label": "Training and Assessment Strategy (TAS)",
+            "url": "https://qmsveis.info/cms.php?pageid=554"
+          },
+          {
+            "label": "TAS forms",
+            "url": "https://drive.google.com/drive/folders/1hu-_5-nOiQz54ssBSq1TcYlpExVsxVAR"
+          },
+          {
+            "label": "Primary Industries and Hospitality is through Wagga Wagga – 90333",
+            "url": "https://qmsveis.info/cms.php?pageid=554"
+          },
+          {
+            "label": "TAS for Construction, Metal … Document Library",
+            "url": "https://apps.powerapps.com/play/e/default-05a0e69a-418a-47c1-9c25-9387261bf991/a/5a20f480-9b58-422b-b013-303698367f68?tenantId=05a0e69a-418a-47c1-9c25-9387261bf991"
+          },
+          {
+            "label": "Students with special educational needs QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=608"
+          }
+        ]
+      },
+      {
+        "code": "E1",
+        "title": "Evidence of support for VET Co-ordinator",
+        "status": "updated 2023",
+        "description": "The Head Teacher VET is on a headteachers load and some support funding has been utilised for relief when needed. The principal also employs a SAS assistant (using principal support funding) to assist each headteacher with administration. This is accessed by the headteacher VET in supporting many of the administrative duties needed to meet compliance.\nA link to RTO Wagga Team Roles, Responsibilities and Contact Details 2021\nQMS - portfolio responsibilities for the Senior Pathway team",
+        "links": [
+          {
+            "label": "RTO Wagga Team Roles, Responsibilities and Contact Details",
+            "url": "https://docs.google.com/document/d/1rqp-Dx9tnHcxQmUqdXby-9wZru8GfY8M/edit"
+          },
+          {
+            "label": "QMS - portfolio responsibilities for the Senior Pathway team",
+            "url": "https://qmsveis.info/cms.php"
+          }
+        ]
+      },
+      {
+        "code": "E2",
+        "title": "Authority to Deliver",
+        "status": "updated 2023",
+        "description": "CIGs and QAA's have been signed by all parties for the current year and uploaded to QMS. Copies of these can be found here    Authority to Deliver\nAuthority to deliver Authority to Run Form (previously Amendment to ATD Form)",
+        "links": [
+          {
+            "label": "CIGs",
+            "url": "https://drive.google.com/drive/folders/1Y7pUZcTFXtPwIXtOk2zrhqepcInkN2QF"
+          },
+          {
+            "label": "QAA's",
+            "url": "https://drive.google.com/drive/u/0/folders/1wzxjw8RZXlXmZ08CgvBBKStSwtqO94Uy"
+          },
+          {
+            "label": "Copies of these",
+            "url": "https://drive.google.com/drive/folders/13T78BUltTYOyJnsTPR_Sc4otQ8OcIxQr?usp=sharing"
+          },
+          {
+            "label": "Authority to Deliver",
+            "url": "https://qmsveis.info/cms.php?pageid=558"
+          },
+          {
+            "label": "Authority to deliver Authority to Run Form (previously Amendment to ATD Form)",
+            "url": "https://qmsveis.info/cms.php?pageid=558"
+          }
+        ]
+      },
+      {
+        "code": "E3",
+        "title": "Trainer Checklist - Old Version",
+        "status": "Superseded",
+        "description": "A copy of the OLD version VET trainers annual checklist can be found here.  Not Needed",
+        "links": [
+          {
+            "label": "copy of the OLD version VET trainers annual checklist",
+            "url": "https://drive.google.com/open?id=1mVtlUTlOv2F_82FFyCTQeM2MK2arQvd56sxC0i4JeBg"
+          }
+        ]
+      },
+      {
+        "code": "E3A",
+        "title": "VET Timeline",
+        "status": "updated 2023",
+        "description": "This document may have replaced the Trainer Checklist above. A copy of the VET Timeline for each year can be found here.\nTeacher's Timeline - Action Checklist  V1.2 2021 (modified for teachers)\n2022 Co-ordinator VET timeline Action Plan V1.2  (modified for co-ordinator)\nVET Coordinator Guide",
+        "links": [
+          {
+            "label": "copy of the VET Timeline for each year",
+            "url": "https://drive.google.com/drive/folders/1GIilry1T-Cqrobx4Rj2YbZyWLWdJ9XGb?usp=sharing"
+          },
+          {
+            "label": "Teacher's Timeline - Action Checklist",
+            "url": "https://docs.google.com/document/d/149nC2NjBGkhpyMKCyyhB2SrM2WP4rHBW_8-q90mVU2A/edit"
+          },
+          {
+            "label": "2022 Co-ordinator VET timeline Action Plan V1.2",
+            "url": "https://drive.google.com/file/d/1B3IyCZ6yB7Z-JNwj3bO-Cn5aXVazAIIM/view?usp=sharingzFTTw8h7z10gxNGHK-TDe3/edit"
+          },
+          {
+            "label": "VET Coordinator Guide",
+            "url": "https://drive.google.com/drive/folders/1GIilry1T-Cqrobx4Rj2YbZyWLWdJ9XGb"
+          }
+        ]
+      },
+      {
+        "code": "E4",
+        "title": "USI Process:",
+        "status": "updated 2023",
+        "description": "Many students will complete their USI’s in Stage 5 when completing the ‘White Card’ course. For students to create a USI go to the online website.\nCollecting USIs is done on the Stage 6 Enrolment Form. This form can be used for students who are not doing a VET Course. The USIs are verified by the Vet Coordinator or admin through QMS or Evidence Central. No longer used.\nUSI’s and Enrollments are completed via Evidence Central\nOnce verified the VET Course Markbook is noted with the USI number.\nScan Enrolment Form, upload to QMS -> School Evidence.\nAlso, upload to Google Drive. Student Enrolment Forms - signed\nThe original signed Enrolment Form is put in the Students File.\nVET students are completed during an allocated time slot with the assistance of their trainer and the VET coordinator. Student numbers are kept on the school register via the front office nominated SAS staff member and updated to BOS by the Deputy (Curriculum).  A process is also set up for students who already have a USI from other RTO’s to be registered. For students who leave school before we can obtain their USI, a letter and the USI package is sent to their home address with clear instructions on how to complete the necessary USI components.\nUSI instructions from QMS\nUSI can still be verified through QMS here. A special template must be uploaded for the verification process.\nOnce verified update - VET Markbook, Evidence Central",
+        "links": [
+          {
+            "label": "online website",
+            "url": "https://www.usi.gov.au/students"
+          },
+          {
+            "label": "Collecting USIs is done on the Stage 6 Enrolment Form. This form can be used for students who are not doing a VET Course",
+            "url": "https://lms.det.nsw.edu.au/RTO90333/mod/page/view.php?id=1329"
+          },
+          {
+            "label": "Student Enrolment Forms -",
+            "url": "https://drive.google.com/drive/folders/1pZafBgrps-sIAJoLPiAm7FzOSd3IN-vP?usp=sharing"
+          },
+          {
+            "label": "sig",
+            "url": "https://drive.google.com/drive/folders/1pZafBgrps-sIAJoLPiAm7FzOSd3IN-vP?usp=sharing"
+          },
+          {
+            "label": "USI instructions from QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=610"
+          },
+          {
+            "label": "USI can still be verified through QMS",
+            "url": "https://qmsveis.info/qms/usi-verification/verify"
+          }
+        ]
+      },
+      {
+        "code": "E5",
+        "title": "Estimates for HSC VET exams",
+        "status": "Updated 2023",
+        "description": "NESA Schools Online - change students estimate marks\nIn NESA My reports -> click  Estimated Mark\nEstimated Mark Collection Schedule ‘Click here’ -> generate\nA sheet for each course will be created\nCheck students' names and check they are sitting the HSC Exam\nUpdate the forms from the VET Markbook Trial mark Column\nEntering estimated examination marks tutorial\nAnalysis Data",
+        "links": [
+          {
+            "label": "NESA Schools Online - change students estimate marks",
+            "url": "https://bosho.boardofstudies.nsw.edu.au/links/schoolsonline.html"
+          },
+          {
+            "label": "Entering estimated examination marks tutorial",
+            "url": "https://bosho.boardofstudies.nsw.edu.au/Download/Docs/Entering_estimated_examination_marks.mp4"
+          },
+          {
+            "label": "Analysis Data",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvX1VrX1VSa21HR2c"
+          }
+        ]
+      },
+      {
+        "code": "E6",
+        "title": "VET Meetings and TAS VET Faculty Meetings (C27)",
+        "status": "updated 2022",
+        "description": "Faculty meeting occurs every Tuesday lunchtime. Any VET agenda items are added when needed. Meeting minutes can be found here.  Emails are continually sent to all VET staff with any information and/or important deadlines.\n2023 Term 2 VET co Meeting VET Coordinator online term 2 2023.pdf\nVET Coordinators Meeting summaries",
+        "links": [
+          {
+            "label": "Meeting minutes",
+            "url": "https://drive.google.com/drive/folders/1cmN6A6fv2LjzRNAElgPZQESXHaW9-D67?usp=sharing"
+          },
+          {
+            "label": "VET Coordinator online term 2 2023.pdf",
+            "url": "https://schoolsnsw.sharepoint.com/:b:/s/WaggaWaggaVETCoordinato/EYDtwpcivlhKgBjL1kR4VTkBxuDw9CSwLfxrvwOckKysUA?e=nICn7Y"
+          },
+          {
+            "label": "VET Coordinators Meeting summaries",
+            "url": "https://drive.google.com/drive/folders/1njZLXKI5ahkrQO7hPs7nuPhZGPGTRvGw"
+          }
+        ]
+      },
+      {
+        "code": "E7",
+        "title": "Vet Course Promotional Checklist",
+        "status": "updated 2023",
+        "description": "VET COURSE PROMOTION CHECKLIST- SCHOOL-BASED DELIVERY AND ASSESSMENT from QMS here. YouTube video clips of Subject Information can be found here.\nMarketing - QMS",
+        "links": [
+          {
+            "label": "VET COURSE PROMOTION CHECKLIST- SCHOOL-BASED DELIVERY AND ASSESSMENT from QMS",
+            "url": "https://drive.google.com/drive/folders/1PxDn6T9nHZbSdATAZQkf1ESZqSGVwt4G"
+          },
+          {
+            "label": "YouTube video clips of Subject Information",
+            "url": "https://www.youtube.com/watch?v=bW9eArnxh9o&list=PL9Kv3WPE26p1-s2hvs_QGeFoJ7b1SLwIP&index=11"
+          },
+          {
+            "label": "Marketing - QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=79"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "F",
+    "title": "Continuous Improvement Plans for VET Delivery",
+    "description": "",
+    "links": [],
+    "sections": [
+      {
+        "code": "F1",
+        "title": "Contingency Plans",
+        "status": "updated 2022",
+        "description": "Hospitality - Currently Angela Sebbens is on part-time 3 days/ week at WWHS. We have Emma MacIntosh as a permanent casual who is trained in the appropriate course to relieve her.\nSports Coaching - Heath Russell has recently trained in Sports Coaching (2020). Michael Dare has commenced some training as a backup but still needs to complete the full requirements. Currently deferred until 2022.\nSkills for Work - Scott Trenaman has trained to replaced Aimee Arentz who has transferred to a different school. A copy of the Authority to Deliver documents can be found here. (also 2022 template)\nLouis Orr is Teaching Primary Industries under supervised delivery plan due to Jane Falepau taking leave during 2022. Louis is supervised by Holly Moore (Mount Austin High) Holly is employed by the school for 3 days a term term to assist with assessment.\nStill waiting to see if Jane is returning for 2023. Employment opportunity currently looking at Trina Bedford (Science - Ag) as a possible replacement.",
+        "links": [
+          {
+            "label": "copy of the Authority to Deliver documents",
+            "url": "https://drive.google.com/drive/folders/1dZ_zX-FCPJcCdxOpVieWAQiHWYAeFpQU?usp=sharing"
+          }
+        ]
+      },
+      {
+        "code": "F2",
+        "title": "Allocations to support VET trainer currency",
+        "status": "updated 2022",
+        "description": "VET teachers have attended relevant TPL related to the coffee shop and school catering, and networking and video conferencing. Vet support funding and TPL funding has been utilised for this. Relieve for Entertainment staff to organise and set up production and school functions. Support will be allocated to relieve staff to attend industry visits in 2022.",
+        "links": []
+      },
+      {
+        "code": "F3",
+        "title": "Access to work-placement.",
+        "status": "updated 2022",
+        "description": "Teachers of students on work placement are usually relieved of ‘extras’ during that time. Casuals who are on lighter loads have also been used to help cover classes. VET staff collapse classes to make visits or other TAS staff will cover classes to allow staff time. All staff contact employers on the first day and visit later through the week. Work placement is organised by Wagga Compact and facilitated by the current VET teachers.\nThe principal employs an SLSO - Transition support person, to assist with student work readiness and workplace visits. A translated workplace learning information for parent’s documents has been updated and is available on the Career Learning website.\nA copy of the Teachers Handbook from Wagga Compact can be found here. Requests for work-placement dates to Wagga Compact can be found here. A copy of the COMPACT VET Work-placement handbook can be found here. A new COVID Safe SPR to be implemented from term 4 week 1 2020 can be found here.\nInformation regarding student placements can be found on Pathways Cloud\nOther work placement information can be found below:\nWork placements\nStudent placement records (SPR)\nRPL for work-placement\nCOVID related advice for Work Placement\nCurrent NSW Government COVID restrictions\nCOVID-19 directions – Work placement NESA – “Students undertaking VET Courses in 2021 will remain eligible for the Preliminary or HSC credit units if unable to complete work placement due to the direct impact of COVID-19”. Please contact Nesa if you need advice for Year 11 + 12 VET workplacement.\nWork Place Learning Policy + Procedures - Power Point\nWorkplacement instructions from QMS\nRequest for Work Placement COMPACT\nCOMPACT - WWHS details -2024\nStudents that do workplacement  travelling away from home - Form can be found here",
+        "links": [
+          {
+            "label": "workplace learning information for parent’s documents",
+            "url": "https://education.nsw.gov.au/teaching-and-learning/curriculum/career-learning-and-vet/workplace-learning/guides-and-forms"
+          },
+          {
+            "label": "copy of the Teachers Handbook from Wagga Compact",
+            "url": "https://drive.google.com/open?id=1ONuUiH_4k9gWasRHODgq7aZWkkgR-E0C"
+          },
+          {
+            "label": "Requests for work-placement dates to Wagga Compact",
+            "url": "https://drive.google.com/open?id=1RiQkFZosVE4PQBXbogOx37YHnwnUKHXr"
+          },
+          {
+            "label": "copy of the COMPACT VET Work-placement handbook",
+            "url": "https://drive.google.com/open?id=1xel6w89mXEZs_9p2OiqcePW7GIW2bg1a"
+          },
+          {
+            "label": "new COVID Safe SPR to be implemented from term 4 week 1 2020",
+            "url": "https://docs.google.com/document/d/1Fd8vD5rBwr6-ZHpPXmSD3-X7oIZ08kQUQcHRsRrePyo/edit?usp=sharing"
+          },
+          {
+            "label": "Pathways Cloud",
+            "url": "https://teacher.pathways.cloud/"
+          },
+          {
+            "label": "Work placements",
+            "url": "https://drive.google.com/open?id=1u4hW6fqwRCbR9WHyHUjGi0yzhlfx1q8o"
+          },
+          {
+            "label": "Student placement records (SPR)",
+            "url": "https://drive.google.com/open?id=1u4hW6fqwRCbR9WHyHUjGi0yzhlfx1q8o"
+          },
+          {
+            "label": "RPL for work-placement",
+            "url": "https://drive.google.com/drive/folders/1P-Ns6WgwG0nUVbKWuCZn0aHGFH3v15Ca?usp=sharing"
+          },
+          {
+            "label": "COVID related advice for Work Placement",
+            "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/vet"
+          },
+          {
+            "label": "Current NSW Government COVID restrictions",
+            "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/vet"
+          },
+          {
+            "label": "VET Courses",
+            "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/vet"
+          },
+          {
+            "label": "Nesa",
+            "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/covid-19/coronavirus-advice"
+          },
+          {
+            "label": "Work Place Learning Policy + Procedures - Power Point",
+            "url": "https://drive.google.com/drive/folders/1u4hW6fqwRCbR9WHyHUjGi0yzhlfx1q8o"
+          },
+          {
+            "label": "Workplacement instructions from QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=607"
+          },
+          {
+            "label": "Request for Work Placement COMPACT",
+            "url": "https://drive.google.com/drive/folders/1RiQkFZosVE4PQBXbogOx37YHnwnUKHXr"
+          },
+          {
+            "label": "COMPACT - WWHS details -2024",
+            "url": "https://drive.google.com/file/d/1zwEXT_EpZ6pSwbO2InKfvmBzkAgR3nIv/view"
+          },
+          {
+            "label": "Students that do workplacement  travelling away from home - Form",
+            "url": "https://drive.google.com/file/d/1Tq7BsGAL5WM7k_MC8kfI_dfycTQpJZa9/view?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "code": "F4",
+        "title": "Plans to upgrade equipment",
+        "status": "updated 2022",
+        "description": "We currently have been successful in two submissions to help fund equipment. Items purchased include new planer blades, arc welders, spray booms, kitchen benches for the coffee shop, and a number of smaller tools and utensils. Recent applications for the resource grant can be found here. A Commercial Kitchen was installed in 2021. Plans can be found here. Some initial planning is taking place in regards to improving the layout and bench space in the Coffee shop.",
+        "links": [
+          {
+            "label": "Recent applications for the resource grant",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvaWF1UGZZWHk5Rk0"
+          },
+          {
+            "label": "Plans",
+            "url": "https://drive.google.com/drive/folders/1Iiij2-Dj6OzLby9dsKN5StUAEXYPA6bQ?usp=sharing"
+          }
+        ]
+      },
+      {
+        "code": "F5",
+        "title": "Budget Plans",
+        "status": "updated 2022",
+        "description": "Each year an allocation is made to VET via the school budget. This includes subject fees and an allocated amount per student studying each subject. This amount is also subsidised by the RTO’s VET support fund. Funds are divided up by a needs basis. Applications are made via the Head Teacher VET. The school P&C support VET projects around the school by donating approximately $5000 each year for school-based projects. Vet Budget Information",
+        "links": [
+          {
+            "label": "Vet Budget Information",
+            "url": "https://drive.google.com/open?id=1wpmuxp9wcUvFvtouSi01TITHQ8lXXHvZ"
+          }
+        ]
+      },
+      {
+        "code": "F6",
+        "title": "Audit Information",
+        "status": "updated 2022",
+        "description": "A number of inspections and audits are performed throughout the year and cyclic timeframes. In-house Desk Audit information can be found here. RTO Desk Audit can be found here. Cyclic Internal Audit information can be found on QMS and External ASQA Audit information can be found here. and ASQA Performance Assessment Link\nAudit Information and templates\nInternal Audit  - Enrolment Forms + USI monitoring",
+        "links": [
+          {
+            "label": "In-house Desk Audit information",
+            "url": "https://drive.google.com/drive/folders/1HsHe8Q_daVlGVjCWSlK7kKChXwxgmXgK?usp=sharing"
+          },
+          {
+            "label": "RTO Desk Audit",
+            "url": "https://drive.google.com/drive/folders/1U7iQacKpKIATWMsxOWC4MH0-uOl8lWRV?usp=sharing"
+          },
+          {
+            "label": "QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=40"
+          },
+          {
+            "label": "Cyclic Internal Audit information can be found on QMS and External ASQA Audit information",
+            "url": "https://drive.google.com/drive/folders/1PBVsZeV1R8Fm0yK82VcRmWvZZUlrcyYW?usp=sharing"
+          },
+          {
+            "label": "ASQA Performance Assessment Link",
+            "url": "https://www.asqa.gov.au/tags/performance-assessment-audit"
+          },
+          {
+            "label": "Audit Information and templates",
+            "url": "https://drive.google.com/drive/u/1/folders/16RAZuESKYCfuCMn3_gcxCIyXh2szoAYe"
+          },
+          {
+            "label": "Enrolment Forms + USI monitoring",
+            "url": "https://drive.google.com/drive/u/1/folders/1pZafBgrps-sIAJoLPiAm7FzOSd3IN-vP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "G",
+    "title": "Trainer – Quality Management System (QMS) https://qmsveis.info/index.php",
+    "description": "",
+    "links": [],
+    "sections": [
+      {
+        "code": "G00",
+        "title": "School Evidence  - QMS",
+        "status": "updated 2022",
+        "description": "From 2021, WWHS is trialling the collection of evidence using Google Drive and installing direct links from QMS back to Google drive.\nFrom 2022, some VET subjects are using Evidence Central as part of a trial. Evidence Central can be found here.\nThe link to WWHS’s Google drive School Evidence folder can be found here.\nThe link to QMS WWHS School Evidence Folder",
+        "links": [
+          {
+            "label": "Evidence Central",
+            "url": "https://evidencecentral.info/"
+          },
+          {
+            "label": "link to WWHS’s Google drive School Evidence folder",
+            "url": "https://drive.google.com/drive/folders/13x7Pz8c5UKbK7GtKpJ8EsrHH89XZv4SZ?usp=sharing"
+          },
+          {
+            "label": "QMS WWHS School Evidence Folder",
+            "url": "https://qmsveis.info/evidence.php?folder=34584"
+          }
+        ]
+      },
+      {
+        "code": "G0",
+        "title": "QMS Instructions",
+        "status": "updated 2023",
+        "description": "Instructions on setting up QMS file structure and utilising its features can be found here.\nQMS family tree- where to find things",
+        "links": [
+          {
+            "label": "Instructions on setting up QMS file structure and utilising its features",
+            "url": "https://drive.google.com/drive/folders/1RgJihPiefpHEqFUwvGkLlKJU9LVBFWCD?usp=sharing"
+          },
+          {
+            "label": "QMS family tree- where to find things",
+            "url": "https://drive.google.com/drive/folders/1RgJihPiefpHEqFUwvGkLlKJU9LVBFWCD"
+          }
+        ]
+      },
+      {
+        "code": "G1",
+        "title": "QMS Trainer tracking sheet for WWHS",
+        "status": "updated 2021",
+        "description": "A tracking sheet for monitoring all trainers progress for each class can be found here.\nVET Teacher Training Guidelines and Procedures on QMS\nTeacher Training, Professional Development and Currency on QMS",
+        "links": [
+          {
+            "label": "tracking sheet for monitoring all trainers progress for each class",
+            "url": "https://drive.google.com/open?id=1xd894ElPeUGDxOTpJLtr6lFXiOZNnegh"
+          },
+          {
+            "label": "VET Teacher Training Guidelines and Procedures on QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=571"
+          },
+          {
+            "label": "Teacher Training, Professional Development and Currency",
+            "url": "https://qmsveis.info/cms.php?pageid=556"
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "title": "HSC VET Monitoring",
+        "status": "updated 2022\nSteve’s Only",
+        "description": "VET monitoring information can be found here.\nHSC Assessment Advice -HSC Assessment Advice - QMS\nHSC Monitoring QMS",
+        "links": [
+          {
+            "label": "VET monitoring information",
+            "url": "https://drive.google.com/drive/folders/1gyukueoRqSMgqCalObGjjddbcPb8djh7?usp=sharing"
+          },
+          {
+            "label": "HSC Assessment Advice - QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=613"
+          },
+          {
+            "label": "HSC Monitoring QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=620"
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "title": "Trainer Qualifications",
+        "status": "updated 2022",
+        "description": "Each trainer is responsible to keep a copy of their current qualifications on  QMS",
+        "links": [
+          {
+            "label": "QMS",
+            "url": "https://qmsveis.info/index.php"
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "title": "Vocational and Industry Currency Log",
+        "status": "updated 2022\nSteve’s Only",
+        "description": "Each trainer keeps a current Vocational Industry Skills log in their currency folder on QMS.\nThe Vocational and Industry Currency Log replaces the Skills Currency Matrix. It is found on the QMS in Trainer Induction here or in the Construction course under Support Documents. It must be maintained every year to meet the compliance requirements of ASQA. A copy is on google drive here with instructions on creating a google link.\nIt is used by the trainer to record relevant industry activities, industry or vocational training or professional learning. Trainers are required to maintain and securely store this document by uploading it to the QMS “Currency” folder. Trainers are required to keep a record of their log that outlines two years of industry and vocational currency.\nNote that the “Evidence” column on the log asks trainers to store evidence of each entry on the log in the Currency folder. Evidence could be emails, statements of attendance, MyPL entries, photos, etc.",
+        "links": [
+          {
+            "label": "It is found on the QMS in Trainer Induction",
+            "url": "https://qmsveis.info/cms.php?pageid=563"
+          },
+          {
+            "label": "copy is on google drive",
+            "url": "https://drive.google.com/drive/u/1/folders/192ePIP5Az9Of7vuWfySR1pU4Vb3Yidns"
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "title": "Vet Photos.",
+        "status": "",
+        "description": "Photos of students working in VET can befound here.",
+        "links": [
+          {
+            "label": "Photos of students working in VET can befound",
+            "url": "https://drive.google.com/drive/folders/1o8_oSFVd9Ms8EOsCQ2SKui6iaPOMr7-k?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "title": "Induction Declaration",
+        "status": "updated 2023",
+        "description": "The induction is completed by each cohort at the start of the course. The trainer keeps a signed declaration of the induction on QMS in their RTO Documents folder. (Now on QMS School Evidence - Student Evidence ).\nStudent Declaration Template + current forms (Check QMS for possible updated forms)\nNote: From 2022. Students at Wagga High School have completed their Induction on Evidence Central. A 10 minute lesson on how to access and deliver the induction can be found here.",
+        "links": [
+          {
+            "label": "QMS School Evidence - Student Evidence",
+            "url": "https://qmsveis.info/evidence.php?folder=235105"
+          },
+          {
+            "label": "Student Declaration Template + current forms",
+            "url": "https://drive.google.com/drive/u/1/folders/1lg9ZyeXrckPM_WeS_AVPCIoAuHw3VBz_"
+          },
+          {
+            "label": "QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=564"
+          },
+          {
+            "label": "10 minute lesson on how to access and deliver the induction",
+            "url": "https://rise.articulate.com/share/69wk-ehMxKGm63RBFxS3x-bZTE10EOkT"
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "title": "Accurate Competency Records are kept.",
+        "status": "updated 2022",
+        "description": "Teachers are responsible for keeping their own tracking records for each cohort. A tracking matrix is recommended for this as well as using Sentral Markbook. All entered competencies are imported from Markbook to reports twice per year. The VET coordinator/assistant enters student’s competencies from the school reports to the NESA schools online site at the end of each reporting cycle. A NESA report is created and sent to staff for confirmation of correct entries. Final entry checks in yr 12 are signed off by individual students. Schools Online Reports and Tracking Sheets\nSchools Online Advice to help with competency outcomes here\nCluster Tracking sheets for Construction and Metal can be found here.\nNESA contact numbers can be found here.\nNESA and Schools Online Advice - QMS\nLink to  Wagga RTO Team Roles, Responsibilities and Contact Detail\nA decision-making table for entering schools online information can be found here on QMS\nAccessing VET Certificates, transcripts link  https://studentsonline.nesa.nsw.edu.au/\nAccessing Your VET Certificates and Statements of Attainment - letter to Students     here\nFrom NESA 2023 HSC Missing Outcome Report and USI for VET courses after final entry here",
+        "links": [
+          {
+            "label": "Schools Online Reports and Tracking Sheets",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvYzl0RE5sLVVxUHM"
+          },
+          {
+            "label": "Schools Online Advice to help with competency outcomes",
+            "url": "https://lms.det.nsw.edu.au/RTO90333/pluginfile.php/1828/mod_page/content/117/Schools%20Online%20Advice-%20School%20Resource_V1.2.pdf"
+          },
+          {
+            "label": "Cluster Tracking sheets for Construction and Metal",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvMGkwMUpVeVdla28"
+          },
+          {
+            "label": "NESA contact numbers",
+            "url": "https://drive.google.com/open?id=1cNYN9semcDbDsmes5eoK-OIfDqGucLb-"
+          },
+          {
+            "label": "NESA and Schools Online Advice - QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=622"
+          },
+          {
+            "label": "Wagga RTO Team Roles, Responsibilities and Contact Detail",
+            "url": "https://docs.google.com/document/d/1rqp-Dx9tnHcxQmUqdXby-9wZru8GfY8M/edit"
+          },
+          {
+            "label": "here on QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=622"
+          },
+          {
+            "label": "https://studentsonline.nesa.nsw.edu.au/",
+            "url": "https://studentsonline.nesa.nsw.edu.au/"
+          },
+          {
+            "label": "Accessing Your VET Certificates and Statements of Attainment - letter to Students",
+            "url": "https://docs.google.com/document/d/14MKiNM_WjYT87LL-7GYlhCC3u9mB6ABH/edit"
+          },
+          {
+            "label": "From NESA 2023 HSC Missing Outcome Report and USI for VET courses after final entry",
+            "url": "https://docs.google.com/document/d/1rfvXgRd5LvwO3ptRbqwBNnYovBNIjE72/edit"
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "title": "Student Evidence",
+        "status": "updated 2022",
+        "description": "Teachers are responsible for keeping student evidence uploaded to their Assessment Evidence folder on QMS.  (Now on  QMS School Evidence - Student Evidence).\nOnce cluster booklets have been completed, checked and signed, teachers can put them in the office to be scanned and sent back as a PDF file. Staff then upload these files to the correct cohort folder on QMS. https://qmsveis.info/index.php.\nSome staff are exploring the use of Google Classroom and google drive to track student evidence. A link to this information must still be set up in QMS.\nFrom 2022, some VET subjects are using Evidence Central as part of a trial. Evidence Central can be found here.\nChanges to Activity Completion Report in EC -  Craig Miller 16.11.23",
+        "links": [
+          {
+            "label": "QMS School Evidence - Student Evidence",
+            "url": "https://qmsveis.info/evidence.php?folder=235105"
+          },
+          {
+            "label": "https://qmsveis.info/index.php.",
+            "url": "https://qmsveis.info/index.php"
+          },
+          {
+            "label": "Evidence Central",
+            "url": "https://evidencecentral.info/"
+          },
+          {
+            "label": "Changes to Activity Completion Report in EC -",
+            "url": "https://evidencecentral.info/mod/resource/view.php?id=6428"
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "title": "CIG’s",
+        "status": "updated 2022",
+        "description": "All current CIG’s have been completed and signed by the correct parties and uploaded to  QMS WWHS - CIG by the senior pathways officer. A copy of these documents can be found here.",
+        "links": [
+          {
+            "label": "QMS WWHS - CIG",
+            "url": "https://qmsveis.info/evidence.php?folder=34970"
+          },
+          {
+            "label": "copy of these documents",
+            "url": "https://drive.google.com/open?id=1Y7pUZcTFXtPwIXtOk2zrhqepcInkN2QF"
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "title": "Supervised Delivery Plans",
+        "status": "updated 2021",
+        "description": "The VET Supervised Delivery Plan provides for circumstances when a fully qualified VET trainer is not able to deliver and assess students for a short period of time, and the trainer cannot be replaced with another appropriately qualified VET trainer.",
+        "links": [
+          {
+            "label": "VET Supervised Delivery Plan",
+            "url": "https://drive.google.com/drive/folders/1pu-3ESkZNWhC69LfNO3QQFSHDyN9SAdZ?usp=sharing"
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "title": "Evidence Central",
+        "status": "updated 2022",
+        "description": "From 2022, WWHS has been invited to be part of the new ‘Evidence Central’ Moodle trial. A Google Classroom that integrates with Evidence Central has been created and can be found here.\nA cheat sheet on how to create a progress summary sheet from Evidence Central can be found here\nChanges to Activity Completion Report in EC - Construction  Craig Miller 16.11.23",
+        "links": [
+          {
+            "label": "Google Classroom that integrates with Evidence Central has been created and",
+            "url": "https://drive.google.com/drive/folders/17w8R3IU8IOSQErw5OUXumUs2Mp2ooxiu2JoLIoRT4Smt85Zb4BZA69EEBMqltHmfq_24ljBu?usp=sharing"
+          },
+          {
+            "label": "cheat sheet on how to create a progress summary sheet from Evidence Central",
+            "url": "https://docs.google.com/document/d/1UYIvoGjaOgnG6J_lcM92Q8ccAXhxRLpfLjo7NgRFGWw/edit?usp=share_link"
+          },
+          {
+            "label": "Changes to Activity Completion Report in EC - Construction",
+            "url": "https://evidencecentral.info/mod/resource/view.php?id=6428"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "H",
+    "title": "Trainer - Other",
+    "description": "",
+    "links": [],
+    "sections": [
+      {
+        "code": "H1",
+        "title": "Network Meetings",
+        "status": "updated 2023\nNeed link to all meetings",
+        "description": "All current trainers go to Network meetings and video conferences when possible. VET support funding is used for release. Several of our staff are considered as experienced VET delivers and are often called upon to mentor other staff from outside schools. Staff are also encouraged to attend any ‘immersion’ opportunities that arise.\nOn Moodle here go into Other ->Professional Learning -> select the course eg. Construction has VC Meeting minutes, video (Old - superseded)\nThe video recording for Network meeting can now be found on SharePoint\nConstruction Meeting Aug 2nd 2022\n2023 Term 4 VET Coordinator meeting resources PDF version",
+        "links": [
+          {
+            "label": "Construction Meeting Aug 2",
+            "url": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fschoolsnsw-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fscott_mazzucchelli_det_nsw_edu_au%2FESGwt546dwxHkirkk__oggUBF-jpKuRmuZBz807y5GYndQ%3Fe%3D17Ql7b&data=05%7C01%7CSTEVEN.COWELL%40det.nsw.edu.au%7C5ca62f78e6d447a80f6f08da75a7c2ec%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C637951660669098208%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=dE69i8StbhVgu32awvarM%2BSlhMo3HabVcxV4SBgonZ0%3D&reserved=0"
+          },
+          {
+            "label": "nd",
+            "url": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fschoolsnsw-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fscott_mazzucchelli_det_nsw_edu_au%2FESGwt546dwxHkirkk__oggUBF-jpKuRmuZBz807y5GYndQ%3Fe%3D17Ql7b&data=05%7C01%7CSTEVEN.COWELL%40det.nsw.edu.au%7C5ca62f78e6d447a80f6f08da75a7c2ec%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C637951660669098208%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=dE69i8StbhVgu32awvarM%2BSlhMo3HabVcxV4SBgonZ0%3D&reserved=0"
+          },
+          {
+            "label": "2022",
+            "url": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fschoolsnsw-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Fscott_mazzucchelli_det_nsw_edu_au%2FESGwt546dwxHkirkk__oggUBF-jpKuRmuZBz807y5GYndQ%3Fe%3D17Ql7b&data=05%7C01%7CSTEVEN.COWELL%40det.nsw.edu.au%7C5ca62f78e6d447a80f6f08da75a7c2ec%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C637951660669098208%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=dE69i8StbhVgu32awvarM%2BSlhMo3HabVcxV4SBgonZ0%3D&reserved=0"
+          },
+          {
+            "label": "2023 Term 4 VET Coordinator meeting resources",
+            "url": "https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fschoolsnsw.sharepoint.com%2F%3Af%3A%2Fr%2Fsites%2FSeniorPathwaysProfessionalLearning%2FShared%2520Documents%2FGeneral%2FTerm%25204%2520VET%2520Coordinator%2520meeting%2520resources%3Fcsf%3D1%26web%3D1%26e%3DPax6xt&data=05%7C01%7CCindy.Cunynghame1%40det.nsw.edu.au%7C6ff0505d3fb34988c8c908dbe56efe1f%7C05a0e69a418a47c19c259387261bf991%7C0%7C0%7C638356037092607274%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=rUdoBmpAGMrgAv4vg46dfdJ%2BPWwsBNvnDfB%2FZ%2FWjdzU%3D&reserved=0"
+          },
+          {
+            "label": "PDF version",
+            "url": "https://drive.google.com/drive/folders/1f5E0JkiAvpj6F-jcnFBqirvt41Y38mHy"
+          }
+        ]
+      },
+      {
+        "code": "H2",
+        "title": "Assessment Validation Workshops",
+        "status": "updated 2022",
+        "description": "All current trainers have been either directly or indirectly involved in assessment validation workshops. Information about Assessment Validation can be found here",
+        "links": [
+          {
+            "label": "Information about Assessment Validation",
+            "url": "https://lms.det.nsw.edu.au/RTO90333/mod/page/view.php?id=1333"
+          }
+        ]
+      },
+      {
+        "code": "H3",
+        "title": "Assessor and Student Feedback",
+        "status": "updated 2023",
+        "description": "Verbal feedback is given to the senior pathways officer regarding the RTO moodle. Some online feedback forms have also been completed. Online feedback forms can be found here. In QMS, the Continuous Improvement Procedure has the Improvement Submission Form here.\nThe RTO Data collection and Analysis Information is obtained from the emailed survey links:-\nVET Students- A request and link will go to all delivery sites at the commencement of Term 3 for current year 12 students to provide feedback. Links can be found here.\n25021 VET Student Survey (RTO 90333) Template\nVET Trainers -  A request will be sent to all trainers during Term 4 to complete the online survey.\nPost Audit Survey - will be distributed to Site Managers, VET Coordinators and Trainers at each delivery site following the distribution of the final internal audit report and action plan. Depending on the scheduled internal audit, the collection of data will take place during Term 2 and 3.",
+        "links": [
+          {
+            "label": "Continuous Improvement Procedure",
+            "url": "https://qmsveis.info/cms.php?pageid=557"
+          },
+          {
+            "label": "In QMS, the Continuous Improvement Procedure has the Improvement Submission Form",
+            "url": "https://docs.google.com/document/d/1aFnK1B1zbR7cek2qJJdH05XdCxAzRsVc/edit"
+          },
+          {
+            "label": "Data collection and Analysis Information",
+            "url": "https://docs.google.com/document/d/14iYYItd3UAagzizQbUmo9cgEbkHMbkhv/edit"
+          },
+          {
+            "label": "Links",
+            "url": "https://drive.google.com/drive/folders/17W98_eJ0Gdi46V3AcQw7eZD9kz2ouzIl?usp=sharing"
+          },
+          {
+            "label": "Links",
+            "url": "https://drive.google.com/drive/folders/17W98_eJ0Gdi46V3AcQw7eZD9kz2ouzIl?usp=sharing"
+          },
+          {
+            "label": "25021 VET Student Survey (RTO 90333) Template",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSeWkfa9BJN9SD4zcbmHA3-DQfuPkkbjhJ50cgaixOb-keozGA/viewform"
+          }
+        ]
+      },
+      {
+        "code": "H4",
+        "title": "Assessment Resources",
+        "status": "updated 2023",
+        "description": "Many of the resources used by the RTO have been due to the contribution of WWHS trainers. Plans, projects, worksheets, checklists and tracking sheets are some examples of the input staff have had in Engineering, Construction, Entertainment, Primary Industries and Hospitality. Old Support and supplementary material are accessible via the course Google Classrooms and RTO moodle. Links to the VET Google Classrooms can be found here.\nNe support material from 2022 can be found on QMS and can be found at https://cms.qmsveis.info/vet_courses\nQMS Training + Assessment  per course with support documentation, resources etc",
+        "links": [
+          {
+            "label": "RTO moodle",
+            "url": "https://lms.det.nsw.edu.au/RTO90333/"
+          },
+          {
+            "label": "Links to the VET Google Classrooms",
+            "url": "https://docs.google.com/document/d/133Av6qvxVqXTupd1c8J7ppssbucHPB7efptL5x2I7T4/edit?usp=sharing"
+          },
+          {
+            "label": "https://cms.qmsveis.info/vet_courses",
+            "url": "https://cms.qmsveis.info/vet_courses"
+          },
+          {
+            "label": "QMS Training + Assessment",
+            "url": "https://qmsveis.info/cms.php?pageid=554"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "I",
+    "title": "Other Site Personnel",
+    "description": "",
+    "links": [],
+    "sections": [
+      {
+        "code": "I1",
+        "title": "Course Promotion",
+        "status": "updated 2023",
+        "description": "Mandatory subject selection documents are included in the Information handbook,\nMini-lessons, information evenings, articles in the school newsletter, radio interviews and careers discussions are also used to help promote VET in schools.\nVET Course Promotion Checklist - QMS,  Prelim Assessment Booklet,\nCourse Descriptors for use in course promotion booklets  in QMS go into the Document Library select Stage 6, course, qualification then cohort.\n2025 VET Course Descriptors\nYr 10 Subject Selection Power Point for Yr 11 Subjects in course Promotion section\nVET Marketing - QMS, check VET Marketing Procedures in Promotion Information. YouTube video clips of Subject Information can be found here and here",
+        "links": [
+          {
+            "label": "VET Course Promotion Checklist - QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=79"
+          },
+          {
+            "label": "Prelim Assessment Booklet",
+            "url": "https://drive.google.com/drive/folders/1s1dZTbWdtRPkDb4Id7Y21v0a2fjm-amm?usp=sharing5LpwjjuCg54mx0XuBMxc_sRnohazI/edit"
+          },
+          {
+            "label": "Course Descriptors for use in course promotion booklets",
+            "url": "https://qmsveis.info/cms.php?pageid=79"
+          },
+          {
+            "label": "2025 VET Course Descriptors",
+            "url": "https://drive.google.com/drive/folders/1VYyhSmJbTA_1tQwR0BdWa6MsY7ra9MWM"
+          },
+          {
+            "label": "VET Marketing - QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=79"
+          },
+          {
+            "label": "check VET Marketing Procedures",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvZFpmUkhJV1RMZEU"
+          },
+          {
+            "label": "Promotion Information",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvZFpmUkhJV1RMZEU"
+          },
+          {
+            "label": ".",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvZFpmUkhJV1RMZEU"
+          },
+          {
+            "label": "YouTube video clips of Subject Information",
+            "url": "https://www.youtube.com/watch?v=bW9eArnxh9o&list=PL9Kv3WPE26p1-s2hvs_QGeFoJ7b1SLwIP&index=11"
+          },
+          {
+            "label": "YouTube video clips of Subject Information can be found here and",
+            "url": "https://www.youtube.com/watch?v=hODf5fsy9BM&list=PL9Kv3WPE26p1-s2hvs_QGeFoJ7b1SLwIP&index=10"
+          }
+        ]
+      },
+      {
+        "code": "I2",
+        "title": "VET Assessment Schedule",
+        "status": "updated 2023",
+        "description": "Printing for the assessment schedule includes the RTO’s mandated documents. This is due for printing in Term 4 VET Assessment Schedule",
+        "links": [
+          {
+            "label": "VET Assessment Schedule",
+            "url": "https://drive.google.com/open?id=1jmKjaltOgF3ynDqjwVSqKYZvTvaoiECQ"
+          }
+        ]
+      },
+      {
+        "code": "I3",
+        "title": "Course Information for School Booklets",
+        "status": "updated 2022",
+        "description": "The information that goes into the school handbook is created by the RTO and can be found under the support information for each Framework Course or on the TAS google drive here.",
+        "links": [
+          {
+            "label": "information that goes into the school handbook is created by the RTO and can be found under the support information for each Framework Course or on the TAS google drive",
+            "url": "https://drive.google.com/open?id=1UfIx2J8VGlzLtUZYviI5kx3AJVOPUeuO"
+          }
+        ]
+      },
+      {
+        "code": "I4",
+        "title": "Student Reports and updating NESA entries",
+        "status": "updated 2023\nAll year cohorts have been updated from NESA 22.11.23",
+        "description": "The VET coordinator/assistant enters student’s competencies from the school reports to the NESA schools online site at the end of each reporting cycle. A NESA report is created and sent to staff for confirmation of correct entries. Final entry checks in yr 12 are signed off by individual students. NESA entry reports and  Schools Online Reports and Tracking Sheets\nSchools Online Professional Learning.pdf for\n·         Enrolling Students into VET Courses\n·         Allocating Qualifications and Competencies\n·         Entering Outcomes and Workplacement hours. Withdrawing students.\n·         USI Maintenance and other reports on Schools Online\n·         Late competency outcome entries\n·         Questions, Wrap-up and Evaluation\nA copy of the NESA VET user guide can be found here.\nEntering VET Competencies into NESA Schools Online",
+        "links": [
+          {
+            "label": "Schools Online Reports and Tracking Sheets",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvYzl0RE5sLVVxUHM"
+          },
+          {
+            "label": "Schools Online Professional Learning.pdf",
+            "url": "https://schoolsnsw.sharepoint.com/:b:/s/WaggaWaggaVETCoordinato/EfDI749pLJREo8BsNYxLw2sBqzZuSI0KrT-rrPK_8rWIjQ?e=qorLOl"
+          },
+          {
+            "label": "copy of the NESA VET user guide",
+            "url": "https://drive.google.com/file/d/1Bi3HEowlgD-2fb2Guip9HZZRs0AX0tS5/view?usp=sharing"
+          },
+          {
+            "label": "Entering VET Competencies into NESA Schools Online",
+            "url": "https://drive.google.com/drive/folders/1ta3VzeeiNageDsW9Vj9u2Cna_TY0hGzJ"
+          }
+        ]
+      },
+      {
+        "code": "I5",
+        "title": "NESA Enrolments and course qualifications",
+        "status": "updated 2023",
+        "description": "The Deputy Principal (Curriculum) is in charge of enrolments for VET students. The Headteacher VET double checks that students are put in the correct course with the correct qualifications here. Students are required to sign a confirmation of entry form (print out from BOS) and stored it in the deputies office. Any modifications that need to be made after the due dates must be completed using the following application spreadsheet found here.\nNESA Deadlines Spreadsheet can be found here.\nSummary of the Agriculture Life Skills Syllabus has been given to the Primary Industries teacher 6.11.23 (Trina)       Agriculture Life Skills\nVET help in NESA - Open NESA Schools Online\nDownloads Memos and Documents\nInstructional Videos VET\nHow to enter a student into A vet Course and Assign a RTO\nHow to enter a USI and Work Placement Hours\nHow to load Competency Data from a file\nVET\nBulk Upload VET Competencies\nBulk Upload VET Outcomes\nFact Sheet 1 - Schools Online Site Map\nFact Sheet 7 - Entering students into competencies\nFact Sheet 8 - Entering Competency Outcomes\nFact Sheet 9 - Entering Work Placement Hours\nFact Sheet 15 - VET Reports & Data Files\nFact Sheet 16 - Late Competency Entries\nLate Update Template 2022 here",
+        "links": [
+          {
+            "label": "Headteacher VET double checks that students are put in the correct course with the correct qualifications",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvYzl0RE5sLVVxUHM"
+          },
+          {
+            "label": "Any modifications that need to be made after the due dates must be completed using the following application spreadsheet found",
+            "url": "https://docs.google.com/spreadsheets/d/1Z5oEB_Bz0cAC_SniMXC0rDPCqsXbzjh4/edit#gid=913249061"
+          },
+          {
+            "label": "NESA Deadlines Spreadsheet",
+            "url": "https://drive.google.com/drive/folders/126pP4OVzTSGtBrv9ETJ8dlilFFWLjVSm?usp=sharing"
+          },
+          {
+            "label": "Agriculture Life Skills",
+            "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/tas/technology-life-skills-courses/agriculture-life-skills"
+          },
+          {
+            "label": "Downloads Memos and Documents",
+            "url": "https://bosho.boardofstudies.nsw.edu.au/links/schoolsonline.html"
+          },
+          {
+            "label": "Late Update Template 2022",
+            "url": "https://docs.google.com/spreadsheets/d/1Z5oEB_Bz0cAC_SniMXC0rDPCqsXbzjh4/edit#gid=913249061"
+          }
+        ]
+      },
+      {
+        "code": "I6",
+        "title": "NESA  – Transition to new qualifications",
+        "status": "updated 2023",
+        "description": "When students from other RTO’s are enrolled at WWHS, their NESA credits are transferred across when they are added to the new class.  If our scope and sequence don’t line up with the previous location, adjustments are made where necessary to give the student the best opportunity to complete the certificate. If this is not an option, then the student will receive a statement of attainment for the competencies they have completed. Information on the Transition to a new qualification can be found here.",
+        "links": [
+          {
+            "label": "Information on the Transition to a new qualification",
+            "url": "https://qmsveis.info/cms.php?pageid=600"
+          }
+        ]
+      },
+      {
+        "code": "I7",
+        "title": "School-based Apprentices and Trainees. Plans and monitoring schedules",
+        "status": "updated 2022\nNil",
+        "description": "Plans and schedules are monitored by the Careers Advisor SBAT's.",
+        "links": [
+          {
+            "label": "SBAT's",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvTjYzSGtXYWlGQjQ"
+          }
+        ]
+      },
+      {
+        "code": "I8",
+        "title": "White Card",
+        "status": "updated 2022",
+        "description": "The majority of our students are now trained by outside providers (RTO - 800127 = Allen's Training) and RTO - 800223 = GTK Construction. The Trainer comes to the school and presents the course up to 3 times per year. The school has a number of trained staff that are called to deliver the course when needed. White Card Info’. If students have completed the White card via an interstate provide, then the student must complete the Assessment Kit under supervision. The assessment fit is then to be uploaded to QMS as evidence of compliance. The Assessment Kit can be found here.\nFAQ regarding the white card course can be found here.\nWhite Card Advice V9 from Senior Pathways\nhttps://www.safework.nsw.gov.au/licences-and-registrations/white-cards\nReplace your white card online as long as your details have not changed (using Mastercard or Visa only).\nYou will need to enter the details exactly as they appear on your construction induction card. if your card contains errors, contact 13 10 50.\nChange of address or contact details\nIf you know your licence number you can check and update your address or contact details by completing an update contact details request.\nAlternatively, you can complete the licence enquiry form or change of details form.\nChange of name\nIf you have changed your name complete the change of details form and send it to us by:\npost: SafeWork NSW, Locked Bag 2906, Lisarow NSW 2252\nemail: licensing@safework.nsw.gov.au\nGeneral Construction Induction Training (GIT) White Card",
+        "links": [
+          {
+            "label": "White Card Info",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvQ0N5UUMteEFQVGM"
+          },
+          {
+            "label": "Assessment Kit",
+            "url": "https://drive.google.com/open?id=1aw87LGFUX0QUUcMmy-cXOCGdYF45qem2"
+          },
+          {
+            "label": "FAQ regarding the white card course",
+            "url": "https://docs.google.com/document/d/1L3C1LXWzogtBm2SqWSxvWJayFUMqi-CisDh7tuNS6IM/edit?usp=sharing"
+          },
+          {
+            "label": "White Card Advice V9 from Senior Pathways",
+            "url": "https://drive.google.com/drive/folders/0B40F5Y8uF0rvQ0N5UUMteEFQVGM?resourcekey=0-4ziwOBsGWhOFYE6xYTLHEg"
+          },
+          {
+            "label": "https://www.safework.nsw.gov.au/licences-and-registrations/white-cards",
+            "url": "https://www.safework.nsw.gov.au/licences-and-registrations/white-cards"
+          },
+          {
+            "label": "Replace your white card online",
+            "url": "https://www.service.nsw.gov.au/transaction/replace-general-construction-induction-card-white-card"
+          },
+          {
+            "label": "update contact details",
+            "url": "https://www.onegov.nsw.gov.au/GLS_Portal/snsw/LicenceForm.mvc/NewApplication?formId=1c56bd08-cbd2-4db8-a66d-dbb386d18ad8&agencyID=54f7539b-566b-4ec3-8a66-115d21796436&referrer=%2F"
+          },
+          {
+            "label": "licence enquiry form",
+            "url": "https://www.safework.nsw.gov.au/resource-library/list-of-all-forms/contact-forms/licence-enquiry-form"
+          },
+          {
+            "label": "change of details form",
+            "url": "https://www.safework.nsw.gov.au/__data/assets/pdf_file/0013/50422/change-of-details-application.pdf"
+          },
+          {
+            "label": "change of details form",
+            "url": "https://www.safework.nsw.gov.au/__data/assets/pdf_file/0013/50422/change-of-details-application.pdf"
+          },
+          {
+            "label": "General Construction Induction Training (GIT) White Card",
+            "url": "https://qmsveis.info/cms.php?pageid=946"
+          }
+        ]
+      },
+      {
+        "code": "I9",
+        "title": "Site Visit",
+        "status": "updated 2022",
+        "description": "All Training facilities meet Industry standards. SOP’s, MSDS sheets, Safety signs and lines are all in place. All machine guards are checked and registered at the start of every practical lesson. This function has been set up in Sentral when marking the role. Workshop maintenance is completed at the end of every term where storerooms are re-organised, tools are re-sharpened, benches are sanded and sealed, and general maintenance and cleaning is performed. Site Visit Information.  Routine safety check sheets for TAS workshops can be found here.  CIG’s for each framework course can be found here.",
+        "links": [
+          {
+            "label": "Site Visit Information.",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvdjJOdnE3b3B6Wms"
+          },
+          {
+            "label": "e storerooms are re-organised, tools are re-sharpened, benches are sanded and sealed, and general maintenance and cleaning is performed. Site Visit Information",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvdjJOdnE3b3B6Wms"
+          },
+          {
+            "label": "Routine safety check sheets for TAS workshops can be found",
+            "url": "https://drive.google.com/open?id=1rdHwEAq8iWAVCCE9oehV8jJfhzAf5w7u"
+          },
+          {
+            "label": "Routine safety check sheets for TAS workshops",
+            "url": "https://drive.google.com/open?id=1rdHwEAq8iWAVCCE9oehV8jJfhzAf5w7u"
+          },
+          {
+            "label": "CIG’s for each framework course",
+            "url": "https://drive.google.com/drive/folders/1Y7pUZcTFXtPwIXtOk2zrhqepcInkN2QF?usp=sharing"
+          }
+        ]
+      },
+      {
+        "code": "I10",
+        "title": "Workplace Enrolments",
+        "status": "updated 2022",
+        "description": "All VET students are to enrol for work placement at the following site. www.studentrego.com  and teachers are to confirm work readiness via this site www.pathwayscloud.com/Teacher/Login\nUsernames, passwords and login codes for VET Teachers can be found here.\n1. 'Working Safely at Heights’' has been endorsed by the Director, Risk Management – Health and Safety Directorate.  The document provides extensive details to prevent risks when working on ladders and scaffolds with clear understanding of obligations for students and host employers.\n2. The value of workplace learning the advantages and positive outcomes of engaging in workplace learning.  3.Translated workplace learning information for parents\n3. The Translated Workplace Learning Information for parents.",
+        "links": [
+          {
+            "label": "www.studentrego.com",
+            "url": "http://www.studentrego.com"
+          },
+          {
+            "label": "com",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvdjJOdnE3b3B6Wms"
+          },
+          {
+            "label": "www.pathwayscloud.com/Teacher/Login",
+            "url": "http://www.pathwayscloud.com/Teacher/Login"
+          },
+          {
+            "label": "com/Teacher/Login",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvdjJOdnE3b3B6Wms"
+          },
+          {
+            "label": "Usernames, passwords and login codes for VET Teachers",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvMVpxVjRtWTZIUG8"
+          },
+          {
+            "label": "Working Safely at Heights",
+            "url": "https://education.nsw.gov.au/content/dam/main-education/teaching-and-learning/curriculum/career-learning-and-vocational-education/workplace-learning/keeping-students-safe/Working_safely_at_heights_-_July_2021.pdf"
+          },
+          {
+            "label": "value of workplace learning",
+            "url": "https://education.nsw.gov.au/content/dam/main-education/teaching-and-learning/curriculum/career-learning-and-vocational-education/workplace-learning/the-value-of-workplace-learning.pdf"
+          },
+          {
+            "label": "Translated Workplace Learning Information for parents",
+            "url": "https://education.nsw.gov.au/teaching-and-learning/curriculum/career-learning-and-vet/workplace-learning/guides-and-forms"
+          }
+        ]
+      },
+      {
+        "code": "I11",
+        "title": "Work placements",
+        "status": "updated 2022",
+        "description": "Each Framework subject requires students to perform 70 hours of work placement over a two year period. Yr 11 is held during weeks 6 and 7 term 3 and yr 12 placements are week 5 and 6 term 2. Records of contact with host employer sheets can be found here.\nScanned signed Student Placement Records can be found here. A questionnaire for students to complete if they are attending work placement outside of the school allocated time slot can be found here.\nStudents who have current employment and are eligible to apply for RPL can use this form here.\nWork placement details - Moodle\nCOVID-19 directions – Work placement /work experience/ SBAT – refer to DoE guidelines\nNESA – “Students undertaking VET Courses in 2021 will remain eligible for the Preliminary or HSC credit units if unable to complete work placement due to the direct impact of COVID-19”. Please contact Nesa if you need advice for Year 11 + 12 VET workplacements.",
+        "links": [
+          {
+            "label": "Records of contact with host employer sheets",
+            "url": "https://drive.google.com/open?id=1j7lXcbv0Aw5nmg1LGN0wEtJtFGCYMTBY"
+          },
+          {
+            "label": "Scanned signed Student Placement Records",
+            "url": "https://drive.google.com/open?id=1s2t6EbxovReDNyyn9VlM9YjdyaZFLHMO"
+          },
+          {
+            "label": "questionnaire for students to complete if they are attending work placement outside of the school allocated time slot",
+            "url": "https://docs.google.com/document/d/1pZDgBFdzmUv6BzdewwOhcM8dwrYbH6_Z-DwUcPdnKmg/edit?usp=sharing"
+          },
+          {
+            "label": "Students who have current employment and are eligible to apply for RPL can use this form",
+            "url": "https://drive.google.com/drive/folders/1P-Ns6WgwG0nUVbKWuCZn0aHGFH3v15Ca?usp=sharing"
+          },
+          {
+            "label": "Work placement details - Moodle",
+            "url": "https://lms.det.nsw.edu.au/RTO90333/mod/page/view.php?id=54"
+          },
+          {
+            "label": "VET Courses",
+            "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/vet"
+          },
+          {
+            "label": "Nesa",
+            "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/covid-19/coronavirus-advice"
+          }
+        ]
+      },
+      {
+        "code": "I12",
+        "title": "Construction Upgrade",
+        "status": "",
+        "description": "Construction Upgrade 2022. Information related to this can be found here.",
+        "links": [
+          {
+            "label": "Information related to this",
+            "url": "https://drive.google.com/drive/folders/1HOokswfD1JCZKnTIMct0DpoTh_OTBGpB?usp=share_link"
+          }
+        ]
+      },
+      {
+        "code": "I13",
+        "title": "VET HSC students sitting exams",
+        "status": "Updated 2023",
+        "description": "Not all VET students will sit the HSC exam, however, all students at WWHS will sit the yr 12 Half-yearly and the trial exams. Students need to sign a declaration to indicate if they are sitting the HSC exams or not. The declaration form template can be found here. with the currently signed forms. A template for the trial exam front cover can be found here.",
+        "links": [
+          {
+            "label": "declaration form template",
+            "url": "https://drive.google.com/open?id=0B40F5Y8uF0rvdHNOaS1Lci1VRHM"
+          },
+          {
+            "label": "template for the trial exam front cover",
+            "url": "https://docs.google.com/document/d/1OhHOAmft-uNAEURgeWeituQBMqnAWFL0neH53Go4Hp0/edit?usp=sharing"
+          }
+        ]
+      },
+      {
+        "code": "I14",
+        "title": "New VET Data Policy - Parent and Student privacy notice.",
+        "status": "updated 2023",
+        "description": "The policy requires all students undertaking a VET qualification to complete and sign a privacy notice and student declaration. Students under 18 years of age will also be required to have a privacy notice signed by a parent or guardian. Instructions on actions for this policy and privacy notices can be found here.\nFrom 2022, Wagga High School is using Evidence Central for the VET student Induction. Evidence Central can be found here.  Parent and student signatures are not required when using Evidence Central\nVET Student Induction - Evidence Central Guide to help with any problems",
+        "links": [
+          {
+            "label": "Instructions on actions for this policy and privacy notices",
+            "url": "https://drive.google.com/open?id=17uXc0T2WHxxWOE7Mt5JIGLeoTa-4wDxk"
+          },
+          {
+            "label": "Evidence Central",
+            "url": "https://evidencecentral.info/"
+          },
+          {
+            "label": "VET Student Induction - Evidence Central Guide",
+            "url": "https://docs.google.com/document/d/1l-nXR6IexfEfzZGtZwSUvd5RR_w5U4Y2/edit"
+          }
+        ]
+      },
+      {
+        "code": "I15",
+        "title": "Letter of Support for VET staff changes and training",
+        "status": "updated 2022\nNil",
+        "description": "Applications for re-training staff can be performed twice during the year. The first lot of applications need to be performed at the beginning of the year for urgent requests. Later in the year, the non-urgent request can be applied for. A copy of a letter of support for staff training can be found here.",
+        "links": [
+          {
+            "label": "copy of a letter of support for staff training",
+            "url": "https://drive.google.com/drive/folders/17iqHIOdnFws3FMUj7Pj1v-GyRJyfz85q?usp=sharing"
+          }
+        ]
+      },
+      {
+        "code": "I16",
+        "title": "Certificate IV - Update",
+        "status": "updated 2023",
+        "description": "All current VET staff are required to update their certificate IV in Assessment and Training. Upgrade packages can be found here. The SWSI Moodle can be accessed here.",
+        "links": [
+          {
+            "label": "Upgrade packages",
+            "url": "https://drive.google.com/open?id=1M0bxDYeb1dglt_zF_-3si8uYAn3cQGa0"
+          },
+          {
+            "label": "SWSI Moodle",
+            "url": "https://swsi.moodle.tafensw.edu.au/course/view.php?id=5733"
+          }
+        ]
+      },
+      {
+        "code": "I17",
+        "title": "New VET enrolment form",
+        "status": "Updated - 2023",
+        "description": "As of 2020, all VET students need to complete a course enrolment form before the first lesson. Information regarding this enrolment process and a copy of a student enrolment form can be found here.  Always check QMS for possible updated versions.\nFrom 2022, Wagga High School is using Evidence Central for the VET student Induction. Evidence Central can be found here.  Parent and student signatures are not required when using Evidence Central.\nVET Student Induction - Evidence Central Guide",
+        "links": [
+          {
+            "label": "Information regarding this enrolment process and a copy of a student enrolment form",
+            "url": "https://qmsveis.info/cms.php?pageid=564"
+          },
+          {
+            "label": "Evidence Central",
+            "url": "https://evidencecentral.info/"
+          },
+          {
+            "label": "VET Student Induction - Evidence Central Guide",
+            "url": "https://docs.google.com/document/d/1l-nXR6IexfEfzZGtZwSUvd5RR_w5U4Y2/edit"
+          }
+        ]
+      },
+      {
+        "code": "I18",
+        "title": "VET support Funding Acquittal",
+        "status": "Updated - 2022",
+        "description": "Each year an acquittal for the allocated VET support Funds needs to be completed and sent back to the RTO. A copy of this information can be found here.",
+        "links": [
+          {
+            "label": "copy of this information",
+            "url": "https://drive.google.com/open?id=1ykTOpe59JbhfoFZ7G7kSe2uBKORGo90f"
+          }
+        ]
+      },
+      {
+        "code": "I19",
+        "title": "Applying for a Board  endorsed VET course",
+        "status": "Updated - 2023",
+        "description": "Applying for a Board endorsed VET course information can be found here.\nBOS Applying for a new Stage 5 or 6 VET Board Endorsed Course - 2023\nAn email was sent to Megan Chandler regarding the delivery of running ‘Sports Fitness’ at WWHS. Not an option for 2023 - Perhaps 2024.",
+        "links": [
+          {
+            "label": "Applying for a Board endorsed VET course information",
+            "url": "https://drive.google.com/drive/folders/1GVBP9acLOtEyII9peXxBxfKkdD0ibfME"
+          },
+          {
+            "label": "BOS Applying for a new Stage 5 or 6 VET Board Endorsed Course - 202",
+            "url": "https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/vet/applying-for-endorsement"
+          }
+        ]
+      },
+      {
+        "code": "I20",
+        "title": "Student VET enrolments",
+        "status": "Updated 2023",
+        "description": "Each year students are required to enrol in chosen VET subjects before the commencement of the course. Cross-referencing of outstanding enrolment forms and USI The currently enrolled students completed forms can be found here.\nFrom 2022, Wagga High School is using Evidence Central for the VET student Induction. Evidence Central can be found here.  Parent and student signatures are not required when using Evidence Central",
+        "links": [
+          {
+            "label": "Cross-referencing of outstanding enrolment forms and USI The currently enrolled students completed forms",
+            "url": "https://drive.google.com/drive/u/1/folders/1pZafBgrps-sIAJoLPiAm7FzOSd3IN-vP"
+          },
+          {
+            "label": "Evidence Central",
+            "url": "https://evidencecentral.info/"
+          }
+        ]
+      },
+      {
+        "code": "I21",
+        "title": "LLN Robot",
+        "status": "updated 2023",
+        "description": "Prospective VET students MUST be tested for LLN prior to enrolment into a Stage 5 or Stage 6 VET course ie. at year 10 subject selection.\nAdditional quiz testing may be undertaken during a course to determine language, literacy and numeracy levels. This LLN Robot quiz is aligned to ACSF level 3. Access to the RTO’s LNN Robot, including instructions can be found here on QMS\nAccess to the LLN login here     LLN Instructions and Training Videos\nLinks to VET Aptitude Tests can be found here.\nLLN RESULTS",
+        "links": [
+          {
+            "label": "here on QMS",
+            "url": "https://qmsveis.info/cms.php?pageid=621"
+          },
+          {
+            "label": "Access to the LLN login",
+            "url": "https://waggawaggarto90333.lln.training/login"
+          },
+          {
+            "label": "LLN Instructions and Training Videos",
+            "url": "https://support.lln.training/"
+          },
+          {
+            "label": "Links to VET Aptitude Tests",
+            "url": "https://www.aapathways.com.au/insiders-advisers/practice-aptitude-quizzes"
+          },
+          {
+            "label": "LLN RESULTS",
+            "url": "https://drive.google.com/drive/folders/1QDiSX91wkzWGJyGoGAcQeCeEfbXT6mFM"
+          }
+        ]
+      },
+      {
+        "code": "I22",
+        "title": "VET COVID-19 information and adjustments",
+        "status": "updated 2023",
+        "description": "Due to the COVID 19 pandemic, some guidelines and adjustment information can be found here. Safety procedures for using the Trade Training centre during COVID 19 can be found here.\n27.8.21 update from Megan Chandler\nThe COVID situation provides challenges for many Year 12 students in completing their qualifications, particularly where they need to complete practical tasks. RTOs have developed strategies which may allow these students to complete their qualifications. Please go to the VET courses section on QMS https://cms.qmsveis.info/vet_courses and click on the appropriate course to find the advice relevant to you and your course.",
+        "links": [
+          {
+            "label": "Due to the COVID 19 pandemic, some guidelines and adjustment information",
+            "url": "https://drive.google.com/drive/folders/1SiKAWavwW7BBE1rDgpWmEiJNUtuRYz11?usp=sharing"
+          },
+          {
+            "label": "Safety procedures for using the Trade Training centre during COVID 19",
+            "url": "https://drive.google.com/file/d/1Eng0PBKRiUH14gft0a9gJtkc90lCioYI/view?usp=sharing"
+          },
+          {
+            "label": "https://cms.qmsveis.info/vet_courses",
+            "url": "https://cms.qmsveis.info/vet_courses"
+          }
+        ]
+      },
+      {
+        "code": "I23",
+        "title": "EALD Information",
+        "status": "Updated 2023",
+        "description": "Anything related to EALD students and VET can be found here.\nEnglish for Employment - Finding Work Beginners\nLiteracy for Work - Writing 1 - Teacher's copy\nLiteracy for Work - Writing 2 - Teacher's copy\nLiteracy for Work - Writing 3 - Teachers Copy\nLiteracy for Work - Writing 3 _ STUDENT's\nNumeracy for Work - TEACHERS\nNumeracy for Work - STUDENTS",
+        "links": [
+          {
+            "label": "Anything related to EALD students and VET",
+            "url": "https://drive.google.com/drive/folders/10ddsFm8xU4VDD80zpb5L5_eDioBOpPMT?usp=sharing"
+          }
+        ]
+      },
+      {
+        "code": "I24",
+        "title": "Virtual VET subjects",
+        "status": "Updated 2022",
+        "description": "Information related to the NESA Virtual VET subjects can be found here. The departments ‘Skills at School’ website with the latest information on Virtual VET subjects can be found here.",
+        "links": [
+          {
+            "label": "departments ‘Skills at School’ website with the latest information on Virtual VET subjects",
+            "url": "https://education.nsw.gov.au/public-schools/career-and-study-pathways/skills-at-school?deliveryName=DM17182"
+          }
+        ]
+      },
+      {
+        "code": "I25",
+        "title": "SharePoint Link - Wagga High School Profile Data",
+        "status": "Updated 2022",
+        "description": "This is the new location for the storage of the school profile data. Found here.",
+        "links": [
+          {
+            "label": "Found",
+            "url": "https://schoolsnsw.sharepoint.com/sites/WaggaWaggaSeniorPathways/Lists/Wagga%20Wagga%20School%20Profiles/DispForm.aspx?ID=21&ContentTypeId=0x0100C7EEB064AA84944CB28EF4C710EE8F870041439A29FA099447A4C7E028FCE02D89&e=6%3A01226999fa224c808967fe0bcd201ef3&at=9"
           }
         ]
       }
