@@ -372,7 +372,18 @@ function createResourceCard(category, section) {
 
   const header = document.createElement('header');
   const title = document.createElement('h3');
-  title.textContent = `${section.code}. ${section.title}`;
+  const headingText = `${section.code}. ${section.title}`;
+  if (section.links.length) {
+    const headingLink = document.createElement('a');
+    headingLink.href = section.links[0].url;
+    headingLink.target = '_blank';
+    headingLink.rel = 'noopener noreferrer';
+    headingLink.className = 'resource-heading-link';
+    headingLink.textContent = headingText;
+    title.append(headingLink);
+  } else {
+    title.textContent = headingText;
+  }
   header.append(title);
 
   if (section.status) {
