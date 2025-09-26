@@ -2320,9 +2320,14 @@
   },
   {
     "code": "G",
-    "title": "Trainer – Quality Management System (QMS) https://qmsveis.info/index.php",
+    "title": "Trainer – Quality Management System (QMS)",
     "description": "",
-    "links": [],
+    "links": [
+      {
+        "label": "QMS",
+        "url": "https://qmsveis.info/index.php"
+      }
+    ],
     "sections": [
       {
         "code": "G00",
